@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "Leadership Roles",
+    "description": "Executive committee leadership positions that guide our club to success",
+    "url": "/leadership",
+    "seo": {
+      "keywords": [
+        "toastmasters leadership",
+        "club officers",
+        "executive committee",
+        "president",
+        "vice president",
+        "leadership development",
+        "club leadership"
+      ]
+    }
+  },
+  "introduction": {
+    "title": "About Club Leadership",
+    "description": "The executive committee provides the strategic direction and operational management of our club. These leadership roles offer invaluable experience in management, team coordination, and organizational leadership.",
+    "story": {
+      "title": "You Don't Need Experience to Lead",
+      "quote": "Don't need to be an experienced Toastmaster to stand for roles. Just need curiosity, interest, time, and conviction.",
+      "narrative": "At our December 2, 2025 meeting, Amr attended his 2nd meeting ever and was elected Vice President of Membership! He said: 'Public speaking is a skill that improves over time, not overnight. You have to come and keep improving.'",
+      "followup": "Just weeks later, he's now leading our membership efforts and welcoming new guests to the club.",
+      "key_message": "Leadership roles are about learning by doing, with full support from the committee."
+    },
+    "resource_link": {
+      "text": "Toastmasters.org Leadership Central",
+      "url": "https://www.toastmasters.org/leadership-central/officer-roles"
+    }
+  },
+  "featured_roles": [
+    {
+      "id": "vp-membership",
+      "title": "Vice President of Membership",
+      "slug": "vp-membership",
+      "responsibilities": [
+        "Welcome guests and potential members at club meetings",
+        "Coordinate guest visits and follow up with interested individuals",
+        "Monitor member participation and engagement levels",
+        "Organize member appreciation activities and recognition",
+        "Track membership renewals and assist with renewal process",
+        "Develop and implement membership recruitment strategies"
+      ],
+      "skills_developed": [
+        "Relationship building",
+        "Sales and persuasion",
+        "Customer service",
+        "Organization and planning",
+        "Strategic thinking",
+        "Empathy and listening"
+      ],
+      "ideal_for": "Enjoy talking to people and making connections, have a friendly and welcoming personality, are interested in sales or customer service, want to help others succeed, and are organized and good at follow-up",
+      "time_commitment": "3-4 hours/week",
+      "page_url": "/leadership/vp-membership"
+    },
+    {
+      "id": "vp-public-relations",
+      "title": "Vice President of Public Relations",
+      "slug": "vp-public-relations",
+      "responsibilities": [
+        "Create and schedule engaging social media posts",
+        "Manage club presence on Facebook, LinkedIn, Instagram, and other platforms",
+        "Write compelling posts about club meetings and member achievements",
+        "Create graphics, videos, and other visual content",
+        "Promote club events and activities to the local community",
+        "Build relationships with local media and organizations"
+      ],
+      "skills_developed": [
+        "Social media marketing",
+        "Content creation and copywriting",
+        "Digital marketing",
+        "Brand management",
+        "Analytics and tracking",
+        "Public relations"
+      ],
+      "ideal_for": "Enjoy social media and online communication, have a creative mindset and eye for design, want to develop marketing skills, like writing and creating content, and are comfortable with technology",
+      "time_commitment": "3-4 hours/week",
+      "page_url": "/leadership/vp-public-relations"
+    }
+  ],
+  "other_positions": [
+    {
+      "id": "president",
+      "title": "President",
+      "slug": "president",
+      "description": "The chief executive officer of the club, responsible for overall club success, member satisfaction, and strategic direction.",
+      "time_commitment": "4-6 hours/week",
+      "skills": [
+        "Strategic leadership",
+        "Team management",
+        "Public representation"
+      ],
+      "page_url": "/leadership/president"
+    },
+    {
+      "id": "vp-education",
+      "title": "Vice President Education (VPE)",
+      "slug": "vp-education",
+      "description": "Oversees all educational programs, schedules speakers, assigns meeting roles, and tracks member progress through Pathways.",
+      "time_commitment": "3-5 hours/week",
+      "skills": [
+        "Program management",
+        "Coaching",
+        "Educational leadership"
+      ],
+      "page_url": "/leadership/vp-education"
+    },
+    {
+      "id": "secretary",
+      "title": "Secretary",
+      "slug": "secretary",
+      "description": "Maintains all club records, manages correspondence, and ensures compliance with Toastmasters International requirements.",
+      "time_commitment": "2-3 hours/week",
+      "skills": [
+        "Organization",
+        "Attention to detail",
+        "Documentation"
+      ],
+      "page_url": "/leadership/secretary"
+    },
+    {
+      "id": "treasurer",
+      "title": "Treasurer",
+      "slug": "treasurer",
+      "description": "Manages all club finances, collects dues, pays bills, and maintains accurate financial records.",
+      "time_commitment": "2-3 hours/week",
+      "skills": [
+        "Financial management",
+        "Accounting",
+        "Attention to detail"
+      ],
+      "page_url": "/leadership/treasurer"
+    },
+    {
+      "id": "sergeant-at-arms",
+      "title": "Sergeant at Arms (SAA)",
+      "slug": "sergeant-at-arms",
+      "description": "Ensures the meeting space is properly set up, manages club property and equipment, and creates a welcoming environment.",
+      "time_commitment": "2-3 hours/week",
+      "skills": [
+        "Organization",
+        "Attention to detail",
+        "Resource management"
+      ],
+      "page_url": "/leadership/sergeant-at-arms"
+    }
+  ],
+  "cta": {
+    "title": "Interested in Leadership?",
+    "description": "Club officer elections are held annually in May. Talk to current officers about running for a leadership position and how you can contribute to our club's success.",
+    "buttons": [
+      {
+        "text": "Contact Us",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "text": "View All Roles",
+        "url": "/club-roles",
+        "style": "secondary"
+      }
+    ]
+  }
+}

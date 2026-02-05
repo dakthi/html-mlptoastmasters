@@ -42,7 +42,10 @@ html-mlptoastmasters/
 │   ├── join.html          # Membership page
 │   ├── meetings.html      # Meeting info
 │   ├── leadership.html    # Club leadership
-│   ├── resources.html     # Resources
+│   ├── resources.html     # Resources page
+│   ├── resources.json     # Resources data
+│   ├── education.html     # Educational pathways page
+│   ├── education.json     # Pathways and evaluation data
 │   ├── styles.css         # Compiled CSS
 │   ├── js/               # JavaScript files
 │   ├── images/           # Image assets

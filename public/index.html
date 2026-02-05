@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLP London Bridge Speakers - Toastmasters Club in London</title>
+    <meta name="description" content="A vibrant Toastmasters club in London Bridge helping members develop public speaking and leadership skills">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#e6f3ff',
+                            100: '#cce7ff',
+                            200: '#99cfff',
+                            300: '#66b7ff',
+                            400: '#339fff',
+                            500: '#004165',
+                            600: '#003a5c',
+                            700: '#003352',
+                            800: '#002d49',
+                            900: '#00263f',
+                            950: '#001f36',
+                        },
+                        accent: {
+                            50: '#fdf2f4',
+                            100: '#fce7ea',
+                            200: '#f9d0d6',
+                            300: '#f5a8b5',
+                            400: '#ef7489',
+                            500: '#772432',
+                            600: '#6b202c',
+                            700: '#5f1c27',
+                            800: '#531822',
+                            900: '#47141d',
+                        },
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        heading: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        tighter: '-0.02em',
+                        tight: '-0.01em',
+                        normal: '0',
+                        wide: '0.025em',
+                        wider: '0.05em',
+                        widest: '0.1em',
+                    },
+                    lineHeight: {
+                        tight: '1.1',
+                        snug: '1.2',
+                        normal: '1.5',
+                        relaxed: '1.6',
+                        loose: '1.8',
+                    },
+                }
+            }
+        }
+    </script>
+
+    <!-- Structured Data - Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MLP London Bridge Speakers",
+        "description": "A vibrant Toastmasters club in London Bridge helping members develop public speaking and leadership skills",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "121 Borough High Street",
+            "addressLocality": "London",
+            "addressRegion": "London",
+            "postalCode": "SE1 1NP",
+            "addressCountry": "GB"
+        },
+        "telephone": "+44 7808 811778",
+        "email": "contact@mlptoastmasters.org",
+        "url": "https://mlptoastmasters.org",
+        "openingHours": "Tu 18:30-20:30",
+        "priceRange": "££"
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: #ffffff;
+        }
+        em {
+            font-weight: bold;
+            color: black;
+            font-style: normal;
+        }
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <div class="relative w-full h-screen overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img
+                src="/img/placeholder.webp"
+                alt="MLP London Bridge Speakers Hero Background"
+                class="w-full h-full object-cover"
+            />
+            <!-- Dark overlay for better text readability -->
+            <div class="absolute inset-0 bg-black/40"></div>
+        </div>
+
+        <!-- Content Overlay -->
+        <div class="relative z-10 flex items-center justify-center h-full">
+            <div class="text-center text-white max-w-4xl mx-auto px-4">
+                <!-- Main Title -->
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 sm:mb-6 leading-tight">
+                    <span class="block text-white drop-shadow-2xl">
+                        MLP London Bridge Speakers
+                    </span>
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-10 text-gray-100 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
+                    Develop your public speaking and leadership skills in London's most vibrant Toastmasters club since 2005
+                </p>
+
+                <!-- Stats Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-10">
+                    <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-3 sm:p-4">
+                        <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-accent-400 mb-1">
+                            50+
+                        </div>
+                        <div class="text-xs sm:text-sm text-gray-200 font-medium">
+                            Active Members
+                        </div>
+                    </div>
+                    <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-3 sm:p-4">
+                        <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-accent-400 mb-1">
+                            3
+                        </div>
+                        <div class="text-xs sm:text-sm text-gray-200 font-medium">
+                            Meetings Per Month
+                        </div>
+                    </div>
+                    <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-3 sm:p-4">
+                        <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-accent-400 mb-1">
+                            20
+                        </div>
+                        <div class="text-xs sm:text-sm text-gray-200 font-medium">
+                            Years Active
+                        </div>
+                    </div>
+                    <div class="text-center bg-black/20 backdrop-blur-sm rounded-lg p-3 sm:p-4">
+                        <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-accent-400 mb-1">
+                            2005
+                        </div>
+                        <div class="text-xs sm:text-sm text-gray-200 font-medium">
+                            Chartered Since
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+                    <a
+                        href="/meetings"
+                        class="inline-block bg-accent-600 hover:bg-accent-700 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                        Visit as Guest
+                    </a>
+                    <a
+                        href="/about"
+                        class="inline-block bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg border border-white/30"
+                    >
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Split Banner Section -->
+    <section class="h-[50vh] sm:h-[60vh] lg:h-[67vh] flex flex-col sm:flex-row">
+        <!-- Education Section -->
+        <div class="relative flex-1 min-h-[25vh] sm:min-h-full">
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+                <img
+                    src="/img/meeting-july-group-1.webp"
+                    alt="Educational Pathways"
+                    class="w-full h-full object-cover"
+                />
+                <!-- Overlay for better text readability -->
+                <div class="absolute inset-0 bg-black/40"></div>
+            </div>
+
+            <!-- Content - Left and Bottom aligned -->
+            <div class="relative h-full flex flex-col justify-end p-4 sm:p-6 lg:p-8">
+                <div class="max-w-md">
+                    <!-- Features/Badge -->
+                    <div class="inline-block bg-white/20 backdrop-blur-sm text-white px-2 py-1 rounded text-xs sm:text-sm font-medium mb-2 sm:mb-3">
+                        6 pathways available
+                    </div>
+
+                    <!-- Title -->
+                    <h2 class="text-lg sm:text-2xl lg:text-4xl font-bold text-white mb-2 sm:mb-3 leading-tight">
+                        [to be updated]
+                    </h2>
+
+                    <!-- Subtitle -->
+                    <h3 class="text-sm sm:text-lg lg:text-xl text-white/90 font-medium mb-2 sm:mb-4">
+                        [to be updated]
+                    </h3>
+
+                    <!-- Description - Hidden on mobile for space -->
+                    <p class="hidden sm:block text-white/80 text-sm lg:text-base mb-4 sm:mb-6 leading-relaxed">
+                        Choose from 6 comprehensive pathways designed to help you develop communication and leadership skills. From presentation mastery to dynamic leadership, each pathway offers structured learning with practical application.
+                    </p>
+
+                    <!-- CTA Button - Simple style -->
+                    <a
+                        href="/education"
+                        class="inline-block bg-accent-600 hover:bg-accent-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-xs sm:text-sm lg:text-base uppercase tracking-wide transition-colors duration-200 shadow-lg"
+                    >
+                        Explore pathways
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meetings Section -->
+        <div class="relative flex-1 min-h-[25vh] sm:min-h-full">
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+                <img
+                    src="/img/placeholder.webp"
+                    alt="Meeting Facilities"
+                    class="w-full h-full object-cover"
+                />
+                <!-- Overlay for better text readability -->
+                <div class="absolute inset-0 bg-black/40"></div>
+            </div>
+
+            <!-- Content - Left and Bottom aligned -->
+            <div class="relative h-full flex flex-col justify-end p-4 sm:p-6 lg:p-8">
+                <div class="max-w-md">
+                    <!-- Features/Badge -->
+                    <div class="inline-block bg-white/20 backdrop-blur-sm text-white px-2 py-1 rounded text-xs sm:text-sm font-medium mb-2 sm:mb-3">
+                        3 meetings per month
+                    </div>
+
+                    <!-- Title -->
+                    <h2 class="text-lg sm:text-2xl lg:text-4xl font-bold text-white mb-2 sm:mb-3 leading-tight">
+                        [to be updated]
+                    </h2>
+
+                    <!-- Subtitle -->
+                    <h3 class="text-sm sm:text-lg lg:text-xl text-white/90 font-medium mb-2 sm:mb-4">
+                        [to be updated]
+                    </h3>
+
+                    <!-- Description - Hidden on mobile for space -->
+                    <p class="hidden sm:block text-white/80 text-sm lg:text-base mb-4 sm:mb-6 leading-relaxed">
+                        Experience our supportive learning environment where members practice speeches, receive constructive feedback, and develop leadership skills. Visitors always welcome at St Christopher's Inn, London Bridge.
+                    </p>
+
+                    <!-- CTA Button - Simple style -->
+                    <a
+                        href="/meetings"
+                        class="inline-block bg-accent-600 hover:bg-accent-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-lg text-xs sm:text-sm lg:text-base uppercase tracking-wide transition-colors duration-200 shadow-lg"
+                    >
+                        Visit as guest
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Impact Stats -->
+    <div class="container mx-auto px-4 xl:px-0 py-16">
+        <!-- Section Title -->
+        <div class="flex w-full flex-col xl:mt-12 p-5 items-center justify-center text-center">
+            <div class="text-sm font-bold tracking-wider text-primary-600 uppercase mb-2">
+                Our impact
+            </div>
+
+            <h2 class="max-w-2xl mt-3 text-3xl font-heading font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl">
+                Building confident speakers and leaders
+            </h2>
+
+            <p class="max-w-2xl py-4 text-lg leading-normal text-gray-700 lg:text-xl xl:text-xl">
+                MLP London Bridge Speakers is a community of aspiring speakers and leaders.
+                We provide a supportive environment where members develop communication and leadership skills
+                through structured pathways, constructive feedback, and practical experience.
+            </p>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 mt-8 sm:mt-16">
+            <div class="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 text-center shadow-sm">
+                <p class="text-2xl sm:text-3xl font-heading font-bold text-primary-600 mb-1 sm:mb-2">
+                    100+
+                </p>
+                <p class="text-sm sm:text-base text-gray-800 font-medium">
+                    Years of proven Toastmasters methodology
+                </p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 text-center shadow-sm">
+                <p class="text-2xl sm:text-3xl font-heading font-bold text-primary-600 mb-1 sm:mb-2">
+                    2-3
+                </p>
+                <p class="text-sm sm:text-base text-gray-800 font-medium">
+                    Meetings per month for practice
+                </p>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 text-center shadow-sm">
+                <p class="text-2xl sm:text-3xl font-heading font-bold text-primary-600 mb-1 sm:mb-2">
+                    6
+                </p>
+                <p class="text-sm sm:text-base text-gray-800 font-medium">
+                    Educational pathways to choose from
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="bg-white">
+        <div class="container mx-auto px-4 xl:px-0">
+            <section class="py-16">
+                <div class="text-center mb-12">
+                    <h1 class="text-3xl md:text-4xl font-heading font-bold text-primary-600 mb-6 uppercase tracking-tight">
+                        About MLP London Bridge Speakers
+                    </h1>
+                    <p class="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+                        Building confident speakers and leaders in the heart of London since 2005
+                    </p>
+                </div>
+
+                <div class="grid gap-12 lg:gap-16">
+                    <div class="bg-primary-50 rounded-2xl p-8 lg:p-12">
+                        <h3 class="text-2xl font-heading font-bold text-primary-600 mb-6 uppercase tracking-tight">
+                            Our Story
+                        </h3>
+                        <p class="text-lg text-gray-800 leading-relaxed mb-6">
+                            MLP London Bridge Speakers is a vibrant Toastmasters club serving the London Bridge area. We're part of
+                            <strong> District 91</strong>, Area L23, and have been helping members overcome their fear of public speaking
+                            and develop essential leadership skills in a supportive, friendly environment.
+                        </p>
+                        <p class="text-lg text-gray-800 leading-relaxed mb-6">
+                            We're part of <strong>Toastmasters International</strong>, a global organization with over 16,200 clubs worldwide.
+                            Our club meets at <strong>St Christopher's Inn, 121 Borough High Street, London SE1 1NP</strong> on the
+                            <strong> 1st, 3rd, and 5th Tuesday</strong> of each month at <strong>6:30 PM</strong>.
+                        </p>
+                        <p class="text-lg text-gray-800 leading-relaxed">
+                            In September 2025, we celebrated a special milestone anniversary and recently secured permanent use of the
+                            private room at St Christopher's Inn. Our members actively participate in contests, with recent winners
+                            progressing to Area level competitions in both Humorous Speech and Table Topics categories.
+                        </p>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+                            <h3 class="text-xl font-heading font-bold text-primary-600 mb-4 uppercase tracking-tight">
+                                What We Offer
+                            </h3>
+                            <p class="text-gray-800 leading-relaxed mb-4">
+                                Our club offers a structured educational program with <strong>6 different Pathways</strong> to choose from,
+                                each designed to develop specific communication and leadership skills.
+                            </p>
+                            <p class="text-gray-800 leading-relaxed">
+                                From your Ice Breaker speech to advanced projects, you'll receive constructive feedback and support
+                                from experienced members at every step of your journey.
+                            </p>
+                        </div>
+
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
+                            <h3 class="text-xl font-heading font-bold text-primary-600 mb-4 uppercase tracking-tight">
+                                Our Community
+                            </h3>
+                            <p class="text-gray-800 leading-relaxed mb-4">
+                                Our members come from diverse backgrounds and industries, creating a unique networking opportunity
+                                while you develop your skills. We actively welcome new members and guests at every meeting.
+                            </p>
+                            <p class="text-gray-800 leading-relaxed">
+                                Whether you're a complete beginner or an experienced speaker, you'll find a welcoming community
+                                ready to support your growth. Recent new members have praised the supportive atmosphere and the
+                                structured approach to learning.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-8 lg:p-12">
+                        <h3 class="text-2xl font-heading font-bold text-primary-600 mb-6 uppercase tracking-tight">
+                            Why Join Us?
+                        </h3>
+                        <p class="text-lg text-gray-800 leading-relaxed mb-6">
+                            In today's world, <strong>communication is everything</strong>. Whether you're looking to advance your career,
+                            become a more confident presenter, or simply overcome your fear of public speaking, Toastmasters provides
+                            the tools and support you need.
+                        </p>
+                        <p class="text-lg text-gray-800 leading-relaxed">
+                            Our members have gone on to win speech contests, lead teams, start businesses, and achieve personal goals
+                            they never thought possible. The skills you learn at Toastmasters extend far beyond public speaking - they're
+                            life skills that benefit every aspect of your personal and professional life.
+                        </p>
+                    </div>
+
+                    <!-- Real Member Stories -->
+                    <div class="bg-white rounded-2xl p-8 lg:p-12 border-2 border-primary-200">
+                        <h3 class="text-2xl font-heading font-bold text-primary-600 mb-6 uppercase tracking-tight text-center">
+                            Real member stories
+                        </h3>
+                        <p class="text-center text-gray-600 mb-8 italic">
+                            Hear from our members about their journeys (from our November 18, 2025 meeting)
+                        </p>
+
+                        <div class="space-y-6">
+                            <!-- Nick's Story -->
+                            <div class="bg-primary-50 rounded-lg p-6">
+                                <div class="flex items-start gap-3 mb-3">
+                                    <div class="bg-primary-600 rounded-full p-2 flex-shrink-0">
+                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        </svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="font-bold text-primary-600 mb-1">Nick - MLP Member, 10 Years</p>
+                                        <p class="text-gray-700 italic mb-3">
+                                            "When I started Toastmasters 10 years ago I was socially introverted. I couldn't even look people in the eye. I shook and sweated when I talked to more than two people."
+                                        </p>
+                                        <p class="text-gray-700 italic mb-3">
+                                            "I remember I did a table topic and I was on stage for 10 seconds just shaking and mumbling and then everyone clapped for me. I realised that was Toastmasters - encouragement. My confidence has continued to grow year on year and I have now delivered over a hundred speeches and taken up many leadership roles in my club and above."
+                                        </p>
+                                        <p class="text-gray-700 italic">
+                                            "Whatever you do, even if you just go on stage for only 10 seconds as a guest and mumble, it's a start and it's a good accomplishment."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Emily's Story -->
+                            <div class="bg-accent-50 rounded-lg p-6">
+                                <div class="flex items-start gap-3 mb-3">
+                                    <div class="bg-accent-600 rounded-full p-2 flex-shrink-0">
+                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        </svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="font-bold text-accent-600 mb-1">Emily - Nearly 10 years</p>
+                                        <p class="text-gray-700 italic mb-3">
+                                            "I went to a face-to-face meeting nearly ten years ago and everyone's clapping as they go on stage, and I was just shaking my head, like 'what is this?' But then you get used to that part, or you embrace that part, and realise that it is a nice thing to do, it's encouraging to everyone."
+                                        </p>
+                                        <p class="text-gray-700 italic">
+                                            "Everyone genuinely is welcome, there's no cliques. The fact that we have guests and new people every meeting allows for that, so it becomes its own little community."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Matt's Story -->
+                            <div class="bg-blue-50 rounded-lg p-6">
+                                <div class="flex items-start gap-3 mb-3">
+                                    <div class="bg-blue-600 rounded-full p-2 flex-shrink-0">
+                                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        </svg>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="font-bold text-blue-600 mb-1">Matt - Experienced member</p>
+                                        <p class="text-gray-700 italic mb-3">
+                                            "I remember when I first went along to Toastmasters, it was a couple of times where I really had to force myself to actually go into the meeting. I think everyone has that real big hurdle to actually overcome and get started with it."
+                                        </p>
+                                        <p class="text-gray-700 italic">
+                                            "The thing that really surprised me was having that ability to be able to find things to say, which was something I used to really struggle with. It does have a really big impact on how you come across at work and how good you are at communicating."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guest vs Member Comparison -->
+                <div class="mt-16 bg-accent-50 rounded-2xl p-8 lg:p-12">
+                    <div class="text-center mb-8">
+                        <h3 class="text-3xl font-heading font-bold text-primary-600 mb-6 uppercase tracking-tight">
+                            What you can do as guests vs members
+                        </h3>
+                        <p class="text-xl text-gray-800 max-w-3xl mx-auto leading-relaxed">
+                            Compare the benefits and opportunities available to guests and members
+                        </p>
+                    </div>
+
+                    <div class="grid gap-6 lg:grid-cols-2 max-w-6xl mx-auto">
+                        <!-- Guest Card -->
+                        <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                            <div class="bg-blue-600 text-white px-6 py-4">
+                                <h3 class="font-bold text-lg">As a Guest</h3>
+                            </div>
+                            <div class="p-6 space-y-4">
+                                <div>
+                                    <h4 class="font-bold text-primary-600 mb-3">What you can do:</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li>✓ Attend meetings and observe prepared speeches</li>
+                                        <li>✓ Participate in Table Topics (impromptu speaking)</li>
+                                        <li>✓ Experience the meeting structure and atmosphere</li>
+                                        <li>✓ Meet members and ask questions</li>
+                                        <li>✓ Visit up to 3 times before deciding to join</li>
+                                        <li>✓ Network with professionals from diverse backgrounds</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <h4 class="font-bold text-primary-600 mb-2">Cost:</h4>
+                                    <p class="text-sm text-gray-700">
+                                        Free - no cost or obligation to attend as a guest
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Member Card -->
+                        <div class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                            <div class="bg-accent-600 text-white px-6 py-4">
+                                <h3 class="font-bold text-lg">As a Member</h3>
+                            </div>
+                            <div class="p-6 space-y-4">
+                                <div>
+                                    <h4 class="font-bold text-primary-600 mb-3">Everything guests can do, plus:</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li>✓ Deliver prepared speeches and receive evaluations</li>
+                                        <li>✓ Access to all 6 Pathways learning programmes</li>
+                                        <li>✓ Assigned mentor to guide your progress</li>
+                                        <li>✓ Participate in speech contests and competitions</li>
+                                        <li>✓ Take on leadership roles in the club</li>
+                                        <li>✓ Access to Toastmasters International resources</li>
+                                        <li>✓ Earn awards and recognition for achievements</li>
+                                        <li>✓ Vote in club elections and decisions</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-accent-50 p-4 rounded-lg">
+                                    <h4 class="font-bold text-primary-600 mb-2">Cost:</h4>
+                                    <p class="text-sm text-gray-700">
+                                        Membership dues apply (covers Toastmasters International fees, educational materials, and club expenses)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-8">
+                        <a
+                            href="/meetings"
+                            class="inline-block bg-accent-600 hover:bg-accent-700 text-white font-bold py-4 px-8 rounded-lg text-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg"
+                        >
+                            Find our next meeting
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Benefit Location Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-4xl mx-auto px-8">
+                <!-- Large, centered page title -->
+                <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 text-center mb-12">
+                    Easy to find in London Bridge
+                </h1>
+
+                <!-- Multi-paragraph text block, left-aligned -->
+                <div class="prose prose-lg max-w-none mb-8">
+                    <p class="text-gray-700 leading-relaxed text-left">
+                        We meet at St Christopher's Inn, a welcoming venue in the heart of London Bridge. Easily accessible by tube, train, and bus, making it convenient for members across London.
+                    </p>
+                </div>
+
+                <!-- Contact line, left-aligned -->
+                <p class="text-gray-600 text-left mb-12">
+                    St Christopher's Inn, 121 Borough High Street, London SE1 1NP
+                </p>
+
+                <!-- Big, centered section heading as divider -->
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-12">
+                    Find our meetings
+                </h2>
+
+                <!-- Location content with image and benefits -->
+                <div class="grid lg:grid-cols-2 gap-12 mb-12">
+                    <!-- Image section -->
+                    <div class="relative h-80 rounded-lg overflow-hidden shadow-lg">
+                        <img
+                            src="/img/placeholder.webp"
+                            alt="Location"
+                            class="w-full h-full object-cover"
+                        />
+                    </div>
+
+                    <!-- Benefits section -->
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 bg-primary-100 rounded-lg">
+                                <span class="text-primary-600 text-lg font-bold">●</span>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-900 mb-2">London Bridge station</h4>
+                                <p class="text-gray-600 leading-relaxed">5-minute walk from London Bridge station (Northern & Jubilee lines, National Rail)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 bg-primary-100 rounded-lg">
+                                <span class="text-primary-600 text-lg font-bold">●</span>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-900 mb-2">Borough tube</h4>
+                                <p class="text-gray-600 leading-relaxed">3-minute walk from Borough Underground station on the Northern line</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 bg-primary-100 rounded-lg">
+                                <span class="text-primary-600 text-lg font-bold">●</span>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold text-gray-900 mb-2">Multiple bus routes</h4>
+                                <p class="text-gray-600 leading-relaxed">Well-served by buses 43, 141, 149, and many others along Borough High Street</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex justify-center">
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a
+                            href="https://maps.google.com/?q=St+Christopher's+Inn+121+Borough+High+Street+London+SE1+1NP"
+                            class="inline-block px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 text-center uppercase text-white bg-primary-600 hover:bg-primary-700 shadow-lg hover:shadow-xl"
+                        >
+                            Get directions
+                        </a>
+                        <a
+                            href="/meetings"
+                            class="inline-block px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 text-center uppercase text-primary-600 border-2 border-primary-600 hover:bg-primary-600 hover:text-white"
+                        >
+                            Visit as guest
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toastmasters Mission -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">The Toastmasters Mission</h2>
+                <p class="text-lg text-gray-600 mb-8 italic">A statement of shared values</p>
+
+                <div class="bg-primary-50 p-8 rounded-lg mb-12">
+                    <p class="text-xl text-primary-800 font-medium leading-relaxed">
+                        "We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth."
+                    </p>
+                </div>
+
+                <p class="text-gray-700 text-base leading-relaxed">
+                    Through this mission, each Toastmaster gains a clear understanding of the club's purpose, and the organization as a whole benefits from a shared set of values and goals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Toastmasters Skills -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                        Transform Your Communication & Leadership Skills
+                    </h2>
+                    <p class="text-lg text-gray-600">
+                        Looking to improve your speaking and leadership skills? Ignite your career? Gain the confidence to speak up?
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+                    <!-- Left Column - About Toastmasters -->
+                    <div>
+                        <div class="bg-primary-50 p-6 rounded-lg mb-8">
+                            <h3 class="text-xl font-semibold text-primary-800 mb-3">Since 1924</h3>
+                            <p class="text-primary-700">
+                                Toastmasters International has helped more than 4 million people just like you, from around the world, become more confident speakers and leaders.
+                            </p>
+                        </div>
+
+                        <div class="space-y-4 text-gray-700">
+                            <p class="flex items-center">
+                                <span class="text-accent-600 font-bold text-xl mr-3">364,000+</span>
+                                Members worldwide
+                            </p>
+                            <p class="flex items-center">
+                                <span class="text-accent-600 font-bold text-xl mr-3">16,200+</span>
+                                Active clubs
+                            </p>
+                            <p class="flex items-center">
+                                <span class="text-accent-600 font-bold text-xl mr-3">145</span>
+                                Countries represented
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right Column - Skills You'll Learn -->
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-6">You'll Learn How To:</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-accent-600 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <p class="text-gray-700">Formulate and express your ideas effectively</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-accent-600 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <p class="text-gray-700">Be more persuasive and confident when giving presentations</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-accent-600 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <p class="text-gray-700">Improve your one-on-one dealings with others</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-accent-600 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <p class="text-gray-700">Become a better negotiator and gain trust</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-2 h-2 bg-accent-600 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+                                <p class="text-gray-700">Inspire your team through effective leadership</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 p-6 bg-accent-50 rounded-lg">
+                            <p class="text-accent-800 font-medium">
+                                "Toastmasters is the most efficient, enjoyable and affordable way of gaining great communication skills."
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center mt-12">
+                    <p class="text-lg text-gray-700 mb-6">
+                        Don't delay! Become the speaker and leader you want to be. Confident, charismatic leaders weren't born that way.
+                    </p>
+                    <a
+                        href="/meetings"
+                        class="inline-block px-8 py-4 bg-accent-600 text-white rounded-lg hover:bg-accent-700 transition-colors font-semibold text-lg"
+                    >
+                        Visit Our Next Meeting - You Won't Regret It!
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Club Affiliations -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+                <!-- Club Details -->
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-8">Club Affiliations</h2>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">Club Name:</span>
+                            <span class="text-gray-900 font-semibold">MLP London Bridge Speakers</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">Club Number:</span>
+                            <span class="text-gray-900 font-semibold">760422</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">Area:</span>
+                            <span class="text-gray-900 font-semibold">23</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">Division:</span>
+                            <span class="text-gray-900 font-semibold">L</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">District:</span>
+                            <span class="text-gray-900 font-semibold">91</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-gray-200">
+                            <span class="text-gray-700 font-medium">Region:</span>
+                            <span class="text-gray-900 font-semibold">UK South</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3">
+                            <span class="text-gray-700 font-medium">Parent Organization:</span>
+                            <span class="text-gray-900 font-semibold">Toastmasters International</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meeting Details -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Why Not Join Us!</h3>
+
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800 mb-2">When do we meet?</h4>
+                            <p class="text-gray-600">1st, 3rd & 5th Tuesday</p>
+                            <p class="text-gray-600">18:30 for 18:45 start</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-lg font-semibold text-gray-800 mb-2">Where do we meet?</h4>
+                            <p class="text-gray-600">St Christopher's Inn</p>
+                            <p class="text-gray-600">121 Borough High Street</p>
+                            <p class="text-gray-600">London SE1 1NP</p>
+                        </div>
+
+                        <div class="pt-4">
+                            <p class="text-accent-600 font-semibold mb-4">Be a guest at our next meeting!</p>
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <a
+                                    href="/meetings"
+                                    class="px-6 py-3 bg-accent-600 text-white rounded-lg hover:bg-accent-700 transition-colors font-semibold text-center"
+                                >
+                                    Visit as Guest
+                                </a>
+                                <a
+                                    href="/contact"
+                                    class="px-6 py-3 border border-accent-600 text-accent-600 rounded-lg hover:bg-accent-50 transition-colors font-semibold text-center"
+                                >
+                                    Contact Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                    What Our Community Says
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Hear from our members about their transformative journey with MLP London Bridge Speakers
+                </p>
+            </div>
+
+            <div class="grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
+                <!-- Testimonial 1 -->
+                <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8 shadow-sm flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-gray-800 text-base leading-relaxed lg:text-lg mb-6">
+                            "When I started Toastmasters 10 years ago I was socially introverted. I couldn't even look people in the eye. I shook and sweated when I talked to more than two people. I remember I did a table topic and I was on stage for 10 seconds just shaking and mumbling and then everyone clapped for me. I realised that was Toastmasters - encouragement. Whatever you do, if you go on stage 10 seconds as a guest and mumble, it's a start and it's a good accomplishment."
+                        </p>
+                    </div>
+                    <div class="border-t pt-4 flex items-center space-x-3">
+                        <img
+                            src="/img/placeholder.webp"
+                            alt="Nick avatar"
+                            class="w-12 h-12 rounded-full object-cover border-2 border-gray-200"
+                        />
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Nick</div>
+                            <div class="text-sm text-gray-500">Member for 10 years</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8 shadow-sm flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-gray-800 text-base leading-relaxed lg:text-lg mb-6">
+                            "The thing that really surprised me about Toastmasters was having that ability to be able to find things to say, which was something I used to really struggle with, definitely in meetings and being caught really flat-footed with something. It does have a really big impact on how you come across at work and how good you are at communicating."
+                        </p>
+                    </div>
+                    <div class="border-t pt-4 flex items-center space-x-3">
+                        <img
+                            src="/img/placeholder.webp"
+                            alt="Matt avatar"
+                            class="w-12 h-12 rounded-full object-cover border-2 border-gray-200"
+                        />
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Matt</div>
+                            <div class="text-sm text-gray-500">Experienced member</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8 shadow-sm flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-gray-800 text-base leading-relaxed lg:text-lg mb-6">
+                            "I came a couple weeks ago and I was outside and I was just like 'nah, I can't.' I was standing outside the door and I just couldn't come in. But it's a lot more welcoming than I initially thought. I thought everyone's going to have their own little cliques and I would just be sitting there."
+                        </p>
+                    </div>
+                    <div class="border-t pt-4 flex items-center space-x-3">
+                        <img
+                            src="/img/placeholder.webp"
+                            alt="Sam avatar"
+                            class="w-12 h-12 rounded-full object-cover border-2 border-gray-200"
+                        />
+                        <div>
+                            <div class="text-sm font-semibold text-gray-900">Sam</div>
+                            <div class="text-sm text-gray-500">Guest turned member</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Form Section -->
+    <div class="min-h-screen bg-gray-50 py-12" id="join-form">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-3xl mx-auto">
+                <!-- Header -->
+                <div class="bg-white rounded-lg shadow-md p-8 mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-2">Join MLP London Bridge Speakers</h1>
+                    <p class="text-gray-600">
+                        Take the first step towards becoming a confident speaker and leader. Fill out the form below and we'll be in touch with membership details.
+                    </p>
+                </div>
+
+                <!-- Membership Investment Section -->
+                <div class="bg-blue-50 rounded-lg p-8 mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Membership investment</h2>
+                    <p class="text-gray-700 text-lg mb-4">
+                        Membership is only <strong>£47 for six months</strong> (Toastmasters International membership fee) - that's less than £8 per month!
+                    </p>
+                    <div class="bg-white rounded-lg p-4 mb-6">
+                        <p class="text-gray-800 italic">
+                            As one of our members said: "Paid the best money I'll spend this year!"
+                        </p>
+                    </div>
+                    <p class="text-gray-700 mb-3">
+                        The membership fee includes:
+                    </p>
+                    <ul class="space-y-2 text-gray-700 ml-6 mb-4">
+                        <li>• 2-3 meetings per month (1st, 3rd, and 5th Tuesday) with speaking opportunities</li>
+                        <li>• Access to all 6 Toastmasters Pathways learning programmes</li>
+                        <li>• Assigned mentor to guide your progress</li>
+                        <li>• Regular feedback from experienced evaluators</li>
+                        <li>• Leadership development through meeting roles</li>
+                        <li>• Access to all other Toastmasters clubs</li>
+                        <li>• Supportive community atmosphere</li>
+                    </ul>
+                    <p class="text-gray-700 font-medium italic">
+                        "You can do as much or as little as you would like in Toastmasters. There is no right way to do Toastmasters, just do it for yourself and have fun." - From our November 18, 2025 meeting
+                    </p>
+                </div>
+
+                <!-- Form -->
+                <form id="joinForm" class="bg-white rounded-lg shadow-md p-8">
+                    <div class="space-y-6">
+                        <!-- Personal Information -->
+                        <div>
+                            <h2 class="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b">Personal information</h2>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">
+                                        First Name <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="firstName"
+                                        name="firstName"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Last Name <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="lastName"
+                                        name="lastName"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Email Address <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Phone Number <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <label for="address" class="block text-sm font-medium text-gray-700 mb-1">
+                                    Address
+                                </label>
+                                <input
+                                    type="text"
+                                    id="address"
+                                    name="address"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    placeholder="Street address, City, Postcode"
+                                />
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                                <div>
+                                    <label for="occupation" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Occupation
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="occupation"
+                                        name="occupation"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="company" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Company/Organization
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="company"
+                                        name="company"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Membership Details -->
+                        <div>
+                            <h2 class="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b">Membership details</h2>
+
+                            <div class="space-y-4">
+                                <div>
+                                    <label for="experience" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Public Speaking Experience <span class="text-red-500">*</span>
+                                    </label>
+                                    <select
+                                        id="experience"
+                                        name="experience"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    >
+                                        <option value="beginner">Beginner - Little to no experience</option>
+                                        <option value="intermediate">Intermediate - Some experience</option>
+                                        <option value="advanced">Advanced - Extensive experience</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="visitedMeeting" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Have you visited one of our meetings? <span class="text-red-500">*</span>
+                                    </label>
+                                    <select
+                                        id="visitedMeeting"
+                                        name="visitedMeeting"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                    >
+                                        <option value="no">No, not yet</option>
+                                        <option value="yes-once">Yes, once</option>
+                                        <option value="yes-multiple">Yes, multiple times</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="whyJoin" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Why do you want to join Toastmasters? <span class="text-red-500">*</span>
+                                    </label>
+                                    <textarea
+                                        id="whyJoin"
+                                        name="whyJoin"
+                                        required
+                                        rows="4"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                        placeholder="Share your goals and what you hope to achieve..."
+                                    ></textarea>
+                                </div>
+
+                                <div>
+                                    <label for="hearAboutUs" class="block text-sm font-medium text-gray-700 mb-1">
+                                        How did you hear about us?
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="hearAboutUs"
+                                        name="hearAboutUs"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                                        placeholder="e.g., Google search, friend referral, social media..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Error Message -->
+                        <div id="errorMessage" class="hidden bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-md">
+                        </div>
+
+                        <!-- Success Message -->
+                        <div id="successMessage" class="hidden bg-green-50 border border-green-200 text-green-700 px-4 py-3 rounded-md">
+                            Thank you for your application! We'll be in touch soon.
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="pt-4">
+                            <button
+                                type="submit"
+                                id="submitButton"
+                                class="w-full bg-accent-600 text-white px-6 py-3 rounded-lg hover:bg-accent-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-wide"
+                            >
+                                Submit Application
+                            </button>
+                            <p class="text-sm text-gray-500 text-center mt-3">
+                                By submitting this form, you agree to be contacted about membership information.
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Submission Script -->
+    <script>
+        document.getElementById('joinForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const submitButton = document.getElementById('submitButton');
+            const errorMessage = document.getElementById('errorMessage');
+            const successMessage = document.getElementById('successMessage');
+
+            // Hide previous messages
+            errorMessage.classList.add('hidden');
+            successMessage.classList.add('hidden');
+
+            // Disable submit button
+            submitButton.disabled = true;
+            submitButton.textContent = 'Submitting Application...';
+
+            // Get form data
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData.entries());
+
+            try {
+                // For static HTML, we'll just show success message
+                // In production, you would send to a backend API
+                console.log('Form data:', data);
+
+                // Simulate API call
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                // Show success message
+                successMessage.classList.remove('hidden');
+
+                // Reset form
+                e.target.reset();
+
+                // Scroll to success message
+                successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            } catch (error) {
+                // Show error message
+                errorMessage.textContent = 'Something went wrong. Please try again.';
+                errorMessage.classList.remove('hidden');
+            } finally {
+                // Re-enable submit button
+                submitButton.disabled = false;
+                submitButton.textContent = 'Submit Application';
+            }
+        });
+    </script>
+
+</body>
+</html>

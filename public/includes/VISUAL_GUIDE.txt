@@ -1,0 +1,480 @@
+================================================================================
+VISUAL GUIDE - MLP Toastmasters Navigation & Footer System
+================================================================================
+
+SYSTEM ARCHITECTURE
+================================================================================
+
+     ┌─────────────────────────────────────────────────────┐
+     │               Your HTML Page                        │
+     ├─────────────────────────────────────────────────────┤
+     │ <head>                                              │
+     │   <script src="/js/include-nav-footer.js"></script> │ ← ADD THIS LINE
+     │ </head>                                             │
+     │ <body>                                              │
+     │   <main>Content</main>                              │
+     │ </body>                                             │
+     └────┬──────────────────────────────────────────────┬─┘
+          │                                              │
+          ↓                                              ↓
+     ┌─────────────────┐                    ┌──────────────────┐
+     │ JS Manager      │                    │ HTML Components  │
+     │ Loads When Page │ ────────────────→  │ - nav.html       │
+     │ Is Ready        │                    │ - footer.html    │
+     └─────────────────┘                    └──────────────────┘
+          │                                        │
+          └────────────────┬─────────────────────┘
+                          ↓
+     ┌──────────────────────────────────────────────────────┐
+     │         Navigation & Footer Injected Into Page       │
+     │  ┌──────────────────────────────────────────────┐   │
+     │  │  Navigation (inserted at top of body)        │   │
+     │  │  - Logo, menu, search                        │   │
+     │  └──────────────────────────────────────────────┘   │
+     │  ┌──────────────────────────────────────────────┐   │
+     │  │  Page Content (your original content)        │   │
+     │  └──────────────────────────────────────────────┘   │
+     │  ┌──────────────────────────────────────────────┐   │
+     │  │  Footer (appended at bottom of body)         │   │
+     │  │  - Contact, links, schedule, about           │   │
+     │  └──────────────────────────────────────────────┘   │
+     └──────────────────────────────────────────────────────┘
+
+
+NAVIGATION LAYOUT
+================================================================================
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ DESKTOP (1024px+)                                          ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                                                             ┃
+┃ [Logo: MLP TOASTMASTERS]        [Search]  [HOME] [BLOG]  ┃
+┃ [Subtitle]                                 [ABOUT] [CONT] ┃
+┃                                                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ MOBILE (< 1024px) - MENU CLOSED  ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [Logo: MLP TOAST]   [≡ MENU]     ┃
+┃ [Subtitle]                       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ MOBILE (< 1024px) - MENU OPEN    ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [Logo: MLP TOAST]   [✕ CLOSE]   ┃
+┃ [Subtitle]                       ┃
+├─────────────────────────────────┤
+┃ [HOME]                           ┃
+┃ [BLOG]                           ┃
+┃ [ABOUT]                          ┃
+┃ [CONTACT]                        ┃
+├─────────────────────────────────┤
+┃ [Search box]                     ┃
+└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+FOOTER LAYOUT
+================================================================================
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ DESKTOP (4 COLUMNS)                                        ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                                                             ┃
+┃ CONTACT        │ EXPLORE      │ SCHEDULE      │ ABOUT       ┃
+┃ ──────────────── ──────────────  ──────────────  ──────────  ┃
+┃ Location:      │ Home         │ When:         │ Club Info:  ┃
+┃ St Christop    │ About        │ Tues 1st,     │ #00760422   ┃
+┃ Contact form   │ Blog         │ 3rd, 5th      │ District 91 ┃
+┃                │ Contact      │ 6:30 - 8:30   │ Facebook    ┃
+┃                │              │ Where:        │ Maps        ┃
+┃                │              │ London Bridge │ Guests ok   ┃
+┃                                                             ┃
+├─────────────────────────────────────────────────────────────┤
+┃                                                             ┃
+┃                © 2025 MLP Toastmasters                     ┃
+┃        Helping members develop communication since 2005    ┃
+┃                                                             ┃
+└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ TABLET (2 COLUMNS)                ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                                   ┃
+┃ CONTACT     │ EXPLORE            ┃
+┃ ─────────    ─────────           ┃
+┃ Location    │ Home               ┃
+┃ Contact     │ Blog               ┃
+┃             │ About              ┃
+┃             │ Contact            ┃
+┃                                   ┃
+├────────────────────────────────────┤
+┃ SCHEDULE        │ ABOUT            ┃
+┃ ─────────────    ─────────         ┃
+┃ When: Tues      │ Club Info        ┃
+┃ 6:30 - 8:30 PM  │ District 91      ┃
+┃ Where: London   │ Facebook         ┃
+┃ Bridge          │ Maps             ┃
+┃                 │ Guests Welcome   ┃
+├────────────────────────────────────┤
+┃       © 2025 MLP Toastmasters     ┃
+└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ MOBILE (1 COLUMN)            ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                             ┃
+┃ CONTACT                     ┃
+┃ ───────────────────────     ┃
+┃ Meeting Location:           ┃
+┃ St Christopher's Inn        ┃
+┃ Get in Touch: [link]        ┃
+├─────────────────────────────┤
+┃ EXPLORE                     ┃
+┃ ───────────────────────     ┃
+┃ Home                        ┃
+┃ About                       ┃
+┃ Blog                        ┃
+┃ Contact                     ┃
+┃ Join Now                    ┃
+├─────────────────────────────┤
+┃ SCHEDULE                    ┃
+┃ ───────────────────────     ┃
+┃ When:                       ┃
+┃ 1st, 3rd & 5th Tuesday      ┃
+┃ 6:30 PM - 8:30 PM          ┃
+┃ Where:                      ┃
+┃ St Christopher's Inn        ┃
+┃ London Bridge               ┃
+├─────────────────────────────┤
+┃ ABOUT                       ┃
+┃ ───────────────────────     ┃
+┃ Part of Toastmasters Int'l  ┃
+┃ Club #00760422              ┃
+┃ District 91, Area L23       ┃
+┃ [Facebook]                  ┃
+┃ [Google Maps]               ┃
+┃ Guests always welcome       ┃
+├─────────────────────────────┤
+┃   © 2025 MLP Toastmasters   ┃
+└━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+PAGE STRUCTURE WITH NAV/FOOTER
+================================================================================
+
+┌─────────────────────────────────────────────┐
+│  Browser (1024px+ Desktop)                  │
+├─────────────────────────────────────────────┤
+│ ┌───────────────────────────────────────┐   │
+│ │  Navigation (nav.html)                │   │
+│ │  - Logo, menu, search                 │   │
+│ └───────────────────────────────────────┘   │
+│                                             │
+│ ┌───────────────────────────────────────┐   │
+│ │  Your Page Content                    │   │
+│ │  (hero, sections, etc)                │   │
+│ │                                       │   │
+│ │                                       │   │
+│ └───────────────────────────────────────┘   │
+│                                             │
+│ ┌───────────────────────────────────────┐   │
+│ │  Footer (footer.html)                 │   │
+│ │  Contact | Explore | Schedule | About │   │
+│ │  © Copyright                          │   │
+│ └───────────────────────────────────────┘   │
+└─────────────────────────────────────────────┘
+
+┌──────────────────────────┐
+│  Browser (Mobile < 640px)│
+├──────────────────────────┤
+│ ┌────────────────────┐   │
+│ │ Navigation        │   │
+│ │ Logo [Menu]       │   │
+│ └────────────────────┘   │
+│                          │
+│ ┌────────────────────┐   │
+│ │ Page Content      │   │
+│ │ (stacked)         │   │
+│ │                   │   │
+│ └────────────────────┘   │
+│                          │
+│ ┌────────────────────┐   │
+│ │ Footer            │   │
+│ │ (stacked 1 col)   │   │
+│ │ Contact           │   │
+│ │ Explore           │   │
+│ │ Schedule          │   │
+│ │ About             │   │
+│ │ © Copyright       │   │
+│ └────────────────────┘   │
+└──────────────────────────┘
+
+
+JAVASCRIPT INITIALIZATION FLOW
+================================================================================
+
+Page Load
+    ↓
+Tailwind CSS Loaded
+    ↓
+Script Tag Executed (defer)
+    ↓
+DOM Ready Event
+    ↓
+NavFooterManager Constructor Called
+    ↓
+├─ loadNavigation()
+│   ├─ Fetch /includes/nav.html
+│   ├─ Parse HTML
+│   ├─ Insert at body start
+│   └─ Get DOM references
+│
+├─ loadFooter()
+│   ├─ Fetch /includes/footer.html
+│   ├─ Parse HTML
+│   ├─ Append at body end
+│   └─ Complete
+│
+├─ setupMobileMenu()
+│   ├─ Get menu button
+│   ├─ Attach click listener
+│   └─ Toggle menu visibility
+│
+├─ setupSearch()
+│   ├─ Get search inputs
+│   ├─ Attach input listeners
+│   └─ Setup debouncing
+│
+└─ updateFooterYear()
+    └─ Set current year in footer
+    ↓
+Page Ready with Nav & Footer
+
+
+RESPONSIVE BREAKPOINTS
+================================================================================
+
+Mobile-First Approach:
+
+0px ────────────── 640px ────────────── 1024px ────────────→
+│                   │                    │
+└─ xs (default)    └─ sm (tablet)       └─ lg (desktop)
+  Stacked           2-3 column           4 column layout
+  Hamburger menu    Tablet style         Full desktop UI
+  Mobile search     Medium search        Search bar in header
+
+
+SEARCH INTERACTION FLOW
+================================================================================
+
+User types in search field
+    ↓
+Text input detected
+    ↓
+Check length >= 2 characters?
+    ├─ No → Clear results, hide dropdown
+    └─ Yes ↓
+        Start debounce timer (300ms)
+            ↓
+        Timer expires
+            ↓
+        performSearch(query)
+            ↓
+        Fetch /blog_posts.json
+            ├─ Error → Show error message
+            └─ Success ↓
+                Filter posts by query
+                    ├─ No matches → "No results" message
+                    └─ Matches found ↓
+                        Display results with badges
+                            ↓
+                        User clicks result
+                            ↓
+                        Navigate to post
+                        Close dropdown
+                        Clear search
+
+
+MOBILE MENU INTERACTION FLOW
+================================================================================
+
+Desktop (1024px+):
+    Full navigation visible
+    Hamburger hidden
+    Desktop search in header
+
+Tablet/Mobile (< 1024px):
+    Navigation hidden
+    Hamburger visible
+
+User clicks hamburger
+    ↓
+Check aria-expanded
+    ├─ false (closed) → Set to true
+    └─ true (open) → Set to false
+    ↓
+Toggle .hidden class on menu
+    ├─ Remove hidden → Menu visible
+    └─ Add hidden → Menu hidden
+    ↓
+Toggle .hidden class on icons
+    ├─ Show X icon (close)
+    └─ Show ☰ icon (menu)
+    ↓
+Menu visible with:
+    - All navigation links
+    - Search box
+
+User clicks navigation link
+    ↓
+Navigate to page
+    ↓
+Auto-close menu:
+    - Set aria-expanded to false
+    - Add hidden class
+    - Show hamburger icon
+
+
+COLOR CUSTOMIZATION GUIDE
+================================================================================
+
+Current Color Scheme: Blue-900 (#1e3a8a)
+
+To change to another color:
+
+1. Find all instances of "blue-900" in:
+   - /includes/nav.html
+   - /includes/footer.html
+
+2. Replace with your color:
+   - red-900 → #dc2626
+   - green-900 → #15803d
+   - purple-900 → #581c87
+   - indigo-900 → #312e81
+   - amber-900 → #78350f
+
+3. Update related colors:
+   - hover:text-blue-900 → hover:text-{color}-900
+   - bg-blue-900 → bg-{color}-900
+   - border-blue-900 → border-{color}-900
+   - focus:ring-blue-900 → focus:ring-{color}-900
+
+4. Test on all pages
+5. Check color contrast ratio (should be 7:1)
+
+
+FILE DEPENDENCY DIAGRAM
+================================================================================
+
+Your HTML Pages
+        ↓
+   ┌────┴────┐
+   ↓         ↓
+blog.html  blog-post.html
+   │         │
+   └─────┬───┘
+         ↓
+  <script src="/js/include-nav-footer.js"></script>
+         │
+    ┌────┴─────────────┐
+    ↓                  ↓
+Fetch nav.html      Fetch footer.html
+    ↓                  ↓
+/includes/nav.html  /includes/footer.html
+    │                  │
+    └─────────┬────────┘
+              ↓
+       Display on Page
+              ↓
+    Depends on: Tailwind CSS
+    (Already in your pages)
+
+
+LOADING TIMELINE
+================================================================================
+
+0ms    Page starts loading
+       ├─ HTML parsing begins
+
+50ms   Tailwind CSS loads
+       ├─ CSS ready
+
+100ms  DOM ready
+       ├─ include-nav-footer.js executes (defer)
+       ├─ NavFooterManager created
+
+150ms  Fetch nav.html
+       ├─ Network request sent
+
+200ms  Receive nav.html
+       ├─ Parse and insert into DOM
+       ├─ Attach event listeners
+
+250ms  Fetch footer.html
+       ├─ Network request sent
+
+300ms  Receive footer.html
+       ├─ Parse and append to DOM
+       ├─ Update year element
+
+350ms  Navigation & Footer Ready
+       ├─ All functionality active
+       ├─ Search available
+       ├─ Mobile menu responsive
+
+400ms  Page Fully Interactive
+       ├─ User can interact with all elements
+
+
+ACCESSIBILITY TREE
+================================================================================
+
+Page
+├─ <header role="banner">
+│  ├─ <nav>
+│  │  ├─ Logo link
+│  │  ├─ Navigation list
+│  │  │  ├─ Home link
+│  │  │  ├─ Blog link
+│  │  │  ├─ About link
+│  │  │  └─ Contact link
+│  │  ├─ Search form
+│  │  │  ├─ Search input
+│  │  │  └─ Search results (ARIA live)
+│  │  └─ Mobile menu button (ARIA expanded)
+│  │     ├─ Menu (ARIA hidden on desktop)
+│  │     └─ Mobile search
+│  └─ [Navigation inserted here by JavaScript]
+│
+├─ <main role="main">
+│  └─ [Your page content]
+│
+├─ <footer role="contentinfo">
+│  ├─ Contact section
+│  ├─ Explore section
+│  ├─ Schedule section
+│  ├─ About section
+│  └─ Copyright
+│  └─ [Footer inserted here by JavaScript]
+│
+└─ [Landmark navigation available]
+
+
+SUMMARY
+================================================================================
+
+The navigation and footer are:
+✓ Loaded dynamically via JavaScript
+✓ Responsive across all device sizes
+✓ Accessible with keyboard and screen readers
+✓ Styled with Tailwind CSS
+✓ Fully functional with search and mobile menu
+✓ Easy to customize with simple edits
+✓ Production-ready and tested
+
+To use: Add ONE script tag to your page's <head>
+Result: Professional nav and footer on every page
+
+For more details: See documentation in /public/includes/

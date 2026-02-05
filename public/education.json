@@ -1,0 +1,82 @@
+{
+  "title": "Educational Pathways",
+  "description": "Toastmasters Pathways is our comprehensive learning experience that combines online learning with practical application in our meetings.",
+  "pathways": {
+    "communication": [
+      {
+        "id": 1,
+        "name": "Presentation Mastery",
+        "category": "communication"
+      },
+      {
+        "id": 2,
+        "name": "Engaging Humor",
+        "category": "communication"
+      },
+      {
+        "id": 3,
+        "name": "Strategic Relationships",
+        "category": "communication"
+      },
+      {
+        "id": 4,
+        "name": "Persuasive Influence",
+        "category": "communication"
+      }
+    ],
+    "leadership": [
+      {
+        "id": 5,
+        "name": "Dynamic Leadership",
+        "category": "leadership"
+      },
+      {
+        "id": 6,
+        "name": "Innovative Planning",
+        "category": "leadership"
+      },
+      {
+        "id": 7,
+        "name": "Team Collaboration",
+        "category": "leadership"
+      },
+      {
+        "id": 8,
+        "name": "Visionary Communication",
+        "category": "leadership"
+      }
+    ]
+  },
+  "evaluations": [
+    {
+      "id": 1,
+      "speechType": "confidence speech",
+      "strengths": "I really liked how the speaker went straight into quite a thoughtful, conversational answer, giving lots of insight. There was great imagery - 'Imagine there was a cat here' - which gave us something to work with and brought the point to life.",
+      "improvements": "Could use more emphasis and be bolder. Vary tone more - make it dramatic to bring those points alive and transform it from conversation to performance."
+    },
+    {
+      "id": 2,
+      "speechType": "travel speech",
+      "strengths": "Sophie managed to put the power of three in twice! She talked about three practical things, then moved to 'if I could think about anything, here are three things.' Her voice actually changed when moving from practical to fantasy - great tonal variation.",
+      "improvements": "Speak louder and project voice more. Imagine speaking to the person at the end of the room. It's challenging in this outdoor environment, but good practice for projecting."
+    },
+    {
+      "id": 3,
+      "speechType": "time machine speech",
+      "strengths": "Really flipped that question on its head - bold answer! Then there was a personal story about Formula One which was quite endearing to hear. Brought it back to the main point at the end too.",
+      "improvements": "Could play up the personal story even more - add more excitement and energy to that moment. You've set up the scene, now really make us feel your enthusiasm!"
+    },
+    {
+      "id": 4,
+      "speechType": "habits speech",
+      "strengths": "Owen had a personal story that was really good to hear. We heard about growing up, what he'd like to do, trying to learn guitar - you could really follow along on a chronology. Really confident delivery.",
+      "improvements": "Could add audience interaction - maybe ask 'hands up if this happened to you?' I feel like we've probably all done something like that. Would connect us to you as a speaker."
+    }
+  ],
+  "feedbackPrinciple": {
+    "title": "Key Principle of Feedback at MLP",
+    "content": "Evaluations benefit everyone, not just the person being evaluated. Everyone should listen and apply feedback to their own speaking.",
+    "attributedTo": "Emily, Table Topics Evaluator",
+    "date": "December 2, 2025"
+  }
+}

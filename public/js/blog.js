@@ -182,28 +182,54 @@ function setupLoadMore() {
     });
 }
 
-// Handle newsletter subscription
+/**
+ * Handle newsletter subscription
+ * Uses showNotification from main.js if available
+ */
 function setupNewsletter() {
     const subscribeBtn = document.getElementById('subscribe-btn');
     const emailInput = document.getElementById('newsletter-email');
+
+    if (!subscribeBtn || !emailInput) return;
 
     subscribeBtn.addEventListener('click', () => {
         const email = emailInput.value.trim();
 
         if (!email) {
-            alert('Please enter your email address.');
+            // Use showNotification if available, fall back to alert
+            if (typeof showNotification === 'function') {
+                showNotification('Please enter your email address.', 'warning');
+            } else {
+                alert('Please enter your email address.');
+            }
             return;
         }
 
-        // Email validation
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert('Please enter a valid email address.');
+        // Email validation - use validateEmail from main.js if available
+        let isValid = false;
+        if (typeof validateEmail === 'function') {
+            isValid = validateEmail(email);
+        } else {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            isValid = emailRegex.test(email);
+        }
+
+        if (!isValid) {
+            if (typeof showNotification === 'function') {
+                showNotification('Please enter a valid email address.', 'error');
+            } else {
+                alert('Please enter a valid email address.');
+            }
             return;
         }
 
-        // TODO: Implement actual newsletter subscription
-        alert(`Thank you for subscribing! We'll send updates to ${email}`);
+        // TODO: Implement actual newsletter subscription API call
+        const message = `Thank you for subscribing! We'll send updates to ${email}`;
+        if (typeof showNotification === 'function') {
+            showNotification(message, 'success');
+        } else {
+            alert(message);
+        }
         emailInput.value = '';
     });
 

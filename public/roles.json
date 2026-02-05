@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "Club Roles & Responsibilities",
+    "description": "Learn about the various leadership roles and committee positions in our Toastmasters club. Discover how each role contributes to member growth and club success.",
+    "url": "/club-roles",
+    "seo": {
+      "keywords": [
+        "toastmasters roles",
+        "club officers",
+        "committee positions",
+        "leadership roles",
+        "toastmasters responsibilities",
+        "club executive",
+        "meeting roles"
+      ]
+    }
+  },
+  "introduction": {
+    "title": "Club Roles & Responsibilities",
+    "subtitle": "Learn about the leadership opportunities and meeting roles that make our club successful",
+    "description": "Every role in Toastmasters provides valuable leadership experience and skill development. Whether serving on the executive committee or taking a meeting role, you'll build confidence, practice new skills, and contribute to the success of our club.",
+    "resource_link": {
+      "text": "Toastmasters.org Meeting Roles",
+      "url": "https://www.toastmasters.org/membership/club-meeting-roles"
+    }
+  },
+  "executive_committee": [
+    {
+      "id": "president",
+      "title": "President",
+      "description": "Chief executive officer of the club, responsible for overall club success.",
+      "time_commitment": "4-6 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "vp-education",
+      "title": "Vice President Education (VPE)",
+      "description": "Oversees all educational programs and member progress.",
+      "time_commitment": "3-5 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "vp-membership",
+      "title": "Vice President Membership (VPM)",
+      "description": "Responsible for attracting and retaining members.",
+      "time_commitment": "3-4 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "vp-public-relations",
+      "title": "Vice President Public Relations (VPPR)",
+      "description": "Manages the club's public image and promotes the club.",
+      "time_commitment": "3-4 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "secretary",
+      "title": "Secretary",
+      "description": "Maintains club records and manages correspondence.",
+      "time_commitment": "2-3 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "treasurer",
+      "title": "Treasurer",
+      "description": "Manages club finances and collects dues.",
+      "time_commitment": "2-3 hours/week",
+      "category": "executive"
+    },
+    {
+      "id": "sergeant-at-arms",
+      "title": "Sergeant at Arms (SAA)",
+      "description": "Ensures the meeting space is properly set up and manages club resources.",
+      "time_commitment": "2-3 hours/week",
+      "category": "executive"
+    }
+  ],
+  "meeting_roles": [
+    {
+      "id": "toastmaster-of-the-day",
+      "title": "Toastmaster of the Day",
+      "description": "Hosts and facilitates the club meeting.",
+      "time_commitment": "2-3 hours preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "general-evaluator",
+      "title": "General Evaluator",
+      "description": "Oversees the evaluation portion of the meeting.",
+      "time_commitment": "1-2 hours preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "speech-evaluator",
+      "title": "Speech Evaluator",
+      "description": "Provides constructive feedback on prepared speeches.",
+      "time_commitment": "30-60 min preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "table-topics-master",
+      "title": "Table Topics Master",
+      "description": "Conducts the impromptu speaking session.",
+      "time_commitment": "30-60 min preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "timer",
+      "title": "Timer",
+      "description": "Tracks and signals time for all speakers.",
+      "time_commitment": "Minimal preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "grammarian",
+      "title": "Grammarian",
+      "description": "Tracks language use and introduces Word of the Day.",
+      "time_commitment": "30-60 min preparation",
+      "category": "meeting"
+    },
+    {
+      "id": "ah-counter",
+      "title": "Ah-Counter",
+      "description": "Tracks verbal pauses and filler words.",
+      "time_commitment": "Minimal preparation",
+      "category": "meeting"
+    }
+  ],
+  "support_roles": [
+    {
+      "id": "mentor",
+      "title": "Mentor",
+      "description": "Guides new members through their first months in Toastmasters.",
+      "time_commitment": "1-2 hours/month per mentee",
+      "category": "support"
+    },
+    {
+      "id": "webmaster",
+      "title": "Webmaster",
+      "description": "Maintains and updates the club website and online presence.",
+      "time_commitment": "1-2 hours/week",
+      "category": "support"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Build Leadership Skills",
+      "description": "Every role develops specific leadership competencies that transfer to your professional and personal life."
+    },
+    {
+      "title": "Practice in Safety",
+      "description": "Make mistakes and learn in a supportive environment where everyone is focused on growth."
+    },
+    {
+      "title": "Connect with Members",
+      "description": "Taking roles helps you build relationships and become an integral part of the club community."
+    },
+    {
+      "title": "Accelerate Your Progress",
+      "description": "Many roles count toward Pathways leadership projects and help you complete levels faster."
+    }
+  ],
+  "cta": {
+    "title": "Ready to Take on a Role?",
+    "description": "Talk to our Vice President Education about volunteering for a role at your next meeting. Every journey of a thousand miles begins with a single step!",
+    "buttons": [
+      {
+        "text": "Join Our Club",
+        "url": "/join",
+        "style": "primary"
+      },
+      {
+        "text": "Contact Us",
+        "url": "/contact",
+        "style": "secondary"
+      }
+    ]
+  }
+}

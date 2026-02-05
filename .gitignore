@@ -14,3 +14,25 @@ Thumbs.db
 # Temporary
 tmp/
 temp/
+
+# Heavy Images - Don't push to repo
+# Keep images on VPS only, deploy via GitHub Actions
+public/uploads/
+public/img/*.jpg
+public/img/*.jpeg
+public/img/*.png
+public/img/*.pdf
+
+# Allow WebP (smaller, optimized)
+!public/img/*.webp
+!public/images/*.webp
+
+# Allow small assets
+!public/android-chrome-*.png
+!public/apple-touch-icon.png
+!public/favicon*.png
+!public/favicon.ico
+!public/favicon.svg
+
+# Keep placeholder
+!public/img/placeholder.png
