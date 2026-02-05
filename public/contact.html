@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | MLP Toastmasters</title>
+    <meta name="description" content="Get in touch with MLP Toastmasters. Contact us for meeting information, guest visits, membership inquiries, and general questions about our club.">
+    <meta name="keywords" content="contact us, toastmasters contact, meeting information, guest visit, membership inquiry, club contact">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MLP Toastmasters",
+      "description": "London Bridge Speakers Toastmasters Club",
+      "url": "https://mlptoastmasters.org",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "areaServed": "GB",
+        "availableLanguage": "en"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "postalCode": "SE1",
+        "addressCountry": "GB"
+      }
+    }
+    </script>
+
+    <style>
+        .primary-color { color: #004165; }
+        .primary-bg { background-color: #004165; }
+        .primary-hover:hover { background-color: #003050; }
+        .accent-color { color: #ff6b35; }
+        .accent-bg { background-color: #ff6b35; }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            ring: 2px;
+            ring-offset: 2px;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center py-16 lg:py-24" style="background-image: url('/img/entrance.jpeg');">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="container mx-auto px-4 xl:px-0 relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                    Contact Us
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-100">
+                    Get in touch with MLP Toastmasters
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="py-16">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="grid gap-16 xl:grid-cols-2 xl:gap-24">
+                <!-- Left Column - Contact Form and Opening Hours -->
+                <div class="space-y-12">
+                    <div>
+                        <!-- Section Title -->
+                        <div class="mb-12">
+                            <div class="text-sm font-bold tracking-wider primary-color uppercase mb-2">
+                                Get In Touch
+                            </div>
+                            <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
+                                Contact Form
+                            </h2>
+                            <p class="text-lg text-gray-700">
+                                Have a question or want to get involved? Send us a message using the form below.
+                            </p>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="bg-white rounded-2xl shadow-xl p-8">
+                            <h3 class="text-2xl font-bold primary-color mb-6 text-center uppercase tracking-wide">
+                                Contact Us
+                            </h3>
+
+                            <!-- Status Message -->
+                            <div id="contact-status" class="mb-6 p-4 rounded-lg hidden" role="alert"></div>
+
+                            <form id="contact-form" class="space-y-6">
+                                <!-- Personal Information -->
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="contact-name" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Full Name <span class="text-red-500">*</span>
+                                        </label>
+                                        <input
+                                            type="text"
+                                            id="contact-name"
+                                            name="name"
+                                            required
+                                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <label for="contact-email" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Email Address <span class="text-red-500">*</span>
+                                        </label>
+                                        <input
+                                            type="email"
+                                            id="contact-email"
+                                            name="email"
+                                            required
+                                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="contact-phone" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Phone Number (Optional)
+                                        </label>
+                                        <input
+                                            type="tel"
+                                            id="contact-phone"
+                                            name="phone"
+                                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        />
+                                    </div>
+
+                                    <div>
+                                        <label for="contact-subject" class="block text-sm font-medium text-gray-700 mb-2">
+                                            Subject <span class="text-red-500">*</span>
+                                        </label>
+                                        <select
+                                            id="contact-subject"
+                                            name="subject"
+                                            required
+                                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        >
+                                            <option value="">Select a subject</option>
+                                            <option value="General Enquiry">General Enquiry</option>
+                                            <option value="Meeting Information">Meeting Information</option>
+                                            <option value="Guest Visit">Guest Visit</option>
+                                            <option value="Membership Inquiry">Membership Inquiry</option>
+                                            <option value="Feedback">Feedback</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="contact-message" class="block text-sm font-medium text-gray-700 mb-2">
+                                        Message <span class="text-red-500">*</span>
+                                    </label>
+                                    <textarea
+                                        id="contact-message"
+                                        name="message"
+                                        required
+                                        rows="6"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        placeholder="Please provide details about your enquiry..."
+                                    ></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <button
+                                        type="submit"
+                                        id="contact-submit"
+                                        class="w-full font-bold py-4 px-8 rounded-lg text-lg uppercase tracking-wide transition-colors bg-blue-900 text-white hover:bg-blue-800 disabled:opacity-50 disabled:cursor-not-allowed"
+                                    >
+                                        Send Message
+                                    </button>
+                                </div>
+
+                                <p class="text-sm text-gray-600 mt-4 text-center">
+                                    By submitting this form, you consent to us contacting you regarding your enquiry.
+                                    We will respond within 2-3 working days.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Opening Hours -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">When We're Open</h3>
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 text-center">
+                            <h3 class="text-2xl font-bold primary-color mb-4">Opening Hours</h3>
+                            <p class="text-xl font-semibold text-gray-900 mb-2">Tuesday Evenings</p>
+                            <p class="text-lg text-gray-700">1st, 3rd, and 5th Tuesday of each month</p>
+                            <p class="text-lg text-gray-700">7:00 PM - 9:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Location Info -->
+                <div class="space-y-16">
+                    <!-- Map and Getting Here -->
+                    <div>
+                        <!-- Section Title -->
+                        <div class="mb-8">
+                            <div class="text-sm font-bold tracking-wider primary-color uppercase mb-2">
+                                Visit Us
+                            </div>
+                            <h2 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
+                                Find MLP Toastmasters
+                            </h2>
+                            <p class="text-lg text-gray-700">
+                                We meet in the London Bridge area, easily accessible by Underground, train, and bus.
+                                Contact us for specific meeting location details.
+                            </p>
+                        </div>
+
+                        <!-- Google Map Embed -->
+                        <div class="mt-8">
+                            <div class="map-container rounded-lg overflow-hidden shadow-md">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.7385520768386!2d-0.0853!3d51.5050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603502570a4d5%3A0xf6f5c7d7d7d7d7d7!2sLondon%20Bridge%20Station!5e0!3m2!1sen!2suk!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- Getting Here -->
+                        <div class="mt-8">
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Getting Here</h3>
+                            <div class="space-y-6">
+                                <!-- Underground -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <span class="primary-color font-bold text-lg">U</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900 mb-1">Underground</h4>
+                                        <p class="primary-color font-medium">London Bridge Station</p>
+                                        <p class="text-gray-600 text-sm">Easy access via Northern and Jubilee lines</p>
+                                    </div>
+                                </div>
+
+                                <!-- Train -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <span class="primary-color font-bold text-lg">T</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900 mb-1">Train</h4>
+                                        <p class="primary-color font-medium">Southeastern & Thameslink</p>
+                                        <p class="text-gray-600 text-sm">Multiple rail connections available</p>
+                                    </div>
+                                </div>
+
+                                <!-- Bus -->
+                                <div class="flex items-start space-x-4">
+                                    <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <span class="primary-color font-bold text-lg">B</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900 mb-1">Bus Routes</h4>
+                                        <p class="primary-color font-medium">Multiple routes nearby</p>
+                                        <p class="text-gray-600 text-sm">Well-connected by bus services</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Meeting Location -->
+                        <div class="bg-blue-50 rounded-lg p-6 mt-8">
+                            <h3 class="text-xl font-bold text-gray-900 mb-4">Meeting Location</h3>
+                            <div class="space-y-3 text-gray-700">
+                                <p><strong>MLP London Bridge Speakers</strong></p>
+                                <p>St Christopher's Inn, London Bridge<br>121 Borough High Street<br>London SE1 1NB<br>United Kingdom</p>
+                                <p class="text-sm text-gray-600 mt-4">
+                                    Convenient location in the heart of London Bridge
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Handler Script -->
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = {
+                name: document.getElementById('contact-name').value,
+                email: document.getElementById('contact-email').value,
+                phone: document.getElementById('contact-phone').value,
+                subject: document.getElementById('contact-subject').value,
+                message: document.getElementById('contact-message').value
+            };
+
+            const statusDiv = document.getElementById('contact-status');
+            const submitBtn = document.getElementById('contact-submit');
+
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            statusDiv.classList.add('hidden');
+
+            try {
+                const response = await fetch('/api/contact-form', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    statusDiv.className = 'mb-6 p-4 rounded-lg bg-green-50 text-green-800 border border-green-200';
+                    statusDiv.textContent = data.message || 'Your message has been sent successfully. We will respond within 2-3 working days.';
+                    statusDiv.classList.remove('hidden');
+
+                    // Reset form
+                    document.getElementById('contact-form').reset();
+
+                    // Reset button
+                    submitBtn.textContent = 'Send Message';
+                } else {
+                    statusDiv.className = 'mb-6 p-4 rounded-lg bg-red-50 text-red-800 border border-red-200';
+                    statusDiv.textContent = data.error || 'Failed to send message. Please try again.';
+                    statusDiv.classList.remove('hidden');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                statusDiv.className = 'mb-6 p-4 rounded-lg bg-red-50 text-red-800 border border-red-200';
+                statusDiv.textContent = 'An error occurred. Please try again later.';
+                statusDiv.classList.remove('hidden');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Message';
+            }
+        });
+    </script>
+
+</body>
+</html>

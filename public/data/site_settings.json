@@ -1,0 +1,97 @@
+{
+  "site_title": {
+    "value": "MLP Toastmasters",
+    "type": "text",
+    "description": "Main site title"
+  },
+  "site_description": {
+    "value": "Join MLP Toastmasters - Develop public speaking and leadership skills in a supportive community",
+    "type": "text",
+    "description": "Site description used in meta tags and social sharing"
+  },
+  "hero_title": {
+    "value": "Welcome to MLP Toastmasters",
+    "type": "text",
+    "description": "Main title for hero section"
+  },
+  "hero_subtitle": {
+    "value": "Develop confidence, leadership, and communication skills through our dynamic public speaking program",
+    "type": "text",
+    "description": "Subtitle text displayed on the homepage hero section"
+  },
+  "hero_description": {
+    "value": "Join our vibrant community of speakers and leaders who are passionate about personal growth and professional development. From Competent Speaker to Advanced Leader, we support your journey every step of the way.",
+    "type": "text",
+    "description": "Description text displayed on the homepage hero section"
+  },
+  "contact_email": {
+    "value": "info@mlptoastmasters.org",
+    "type": "text",
+    "description": "Main contact email address"
+  },
+  "contact_phone": {
+    "value": "+44 (0) 20 XXXX XXXX",
+    "type": "text",
+    "description": "Main contact phone number"
+  },
+  "address": {
+    "value": "London, United Kingdom",
+    "type": "text",
+    "description": "Physical address of the club"
+  },
+  "members_count": {
+    "value": "50+",
+    "type": "text",
+    "description": "Number of active members"
+  },
+  "meetings_per_month": {
+    "value": "4",
+    "type": "number",
+    "description": "Number of meetings per month"
+  },
+  "booking_enabled": {
+    "value": true,
+    "type": "boolean",
+    "description": "Enable online booking functionality"
+  },
+  "maintenance_mode": {
+    "value": false,
+    "type": "boolean",
+    "description": "Enable maintenance mode for the site"
+  },
+  "social_facebook": {
+    "value": "https://facebook.com/mlptoastmasters",
+    "type": "text",
+    "description": "Facebook page URL"
+  },
+  "social_twitter": {
+    "value": "https://twitter.com/mlptoastmasters",
+    "type": "text",
+    "description": "Twitter profile URL"
+  },
+  "social_linkedin": {
+    "value": "https://linkedin.com/company/mlp-toastmasters",
+    "type": "text",
+    "description": "LinkedIn profile URL"
+  },
+  "social_instagram": {
+    "value": "https://instagram.com/mlptoastmasters",
+    "type": "text",
+    "description": "Instagram profile URL"
+  },
+  "hero_background_image": {
+    "value": "/images/hero-background.jpg",
+    "type": "string",
+    "description": "Hero section background image"
+  },
+  "hero_cta_button_text": {
+    "value": "JOIN US TODAY",
+    "type": "string",
+    "description": "Hero section call-to-action button text"
+  },
+  "hero_cta_button_link": {
+    "value": "/join",
+    "type": "string",
+    "description": "Hero section call-to-action button link"
+  }
+}

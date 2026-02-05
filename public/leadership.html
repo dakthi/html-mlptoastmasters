@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the executive committee leadership roles at MLP Toastmasters. Learn about the responsibilities of club officers and how to develop your leadership skills.">
+    <meta name="keywords" content="toastmasters leadership, club officers, executive committee, president, vice president, leadership development, club leadership">
+    <title>Leadership Roles - MLP Toastmasters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9fafb;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #1e40af;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #4b5563;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 0;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e40af;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        /* Introduction Section */
+        .intro-box {
+            background-color: #eff6ff;
+            border-radius: 16px;
+            padding: 48px;
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+
+        .intro-box h2 {
+            font-size: 24px;
+            color: #1e40af;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .intro-box p {
+            font-size: 18px;
+            color: #374151;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .story-box {
+            background-color: #fff;
+            border-left: 4px solid #16a34a;
+            border-radius: 8px;
+            padding: 24px;
+            margin: 24px 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .story-box h3 {
+            font-size: 18px;
+            color: #0f766e;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .story-box p {
+            color: #374151;
+            margin-bottom: 12px;
+        }
+
+        .story-highlight {
+            background-color: #f0fdf4;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 12px 0;
+            color: #15803d;
+        }
+
+        /* Role Cards Grid */
+        .roles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .role-card {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .role-card:hover {
+            box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .role-header {
+            background-color: #1e40af;
+            color: white;
+            padding: 20px;
+        }
+
+        .role-header h3 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .role-content {
+            padding: 24px;
+        }
+
+        .role-content h4 {
+            font-size: 16px;
+            color: #1e40af;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .role-description {
+            color: #4b5563;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .role-link {
+            display: inline-block;
+            background-color: #dc2626;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            margin-top: 12px;
+        }
+
+        .role-link:hover {
+            background-color: #b91c1c;
+        }
+
+        /* Expandable Details */
+        .details-section {
+            margin-top: 40px;
+        }
+
+        .details-item {
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .details-summary {
+            padding: 16px;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            background-color: #f9fafb;
+            transition: background-color 0.2s ease;
+        }
+
+        .details-summary:hover {
+            background-color: #f3f4f6;
+        }
+
+        .details-arrow {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            color: #4b5563;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .details-item.open .details-arrow {
+            transform: rotate(90deg);
+        }
+
+        .details-text {
+            flex: 1;
+            color: #374151;
+            font-weight: 500;
+        }
+
+        .details-content {
+            padding: 16px;
+            padding-top: 0;
+            border-top: 1px solid #d1d5db;
+            background-color: #f9fafb;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .details-item.open .details-content {
+            max-height: 500px;
+        }
+
+        .details-content p {
+            color: #374151;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .details-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background-color: #fef3c7;
+            border-radius: 16px;
+            padding: 48px;
+            text-align: center;
+            max-width: 900px;
+            margin: 60px auto 0;
+        }
+
+        .cta-section h2 {
+            font-size: 32px;
+            color: #1e40af;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            color: #374151;
+            margin-bottom: 32px;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #1e40af;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1e3a8a;
+            transform: scale(1.05);
+        }
+
+        .btn-secondary {
+            background-color: #dc2626;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #b91c1c;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        footer p {
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #fbbf24;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Leadership Roles</h1>
+            <p class="subtitle">Discover the executive committee leadership positions that guide our club to success</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Introduction Section -->
+        <section>
+            <div class="intro-box">
+                <h2>About Club Leadership</h2>
+                <p>The executive committee provides the strategic direction and operational management of our club. These leadership roles offer invaluable experience in management, team coordination, and organizational leadership.</p>
+
+                <div class="story-box">
+                    <h3>You Don't Need Experience to Lead</h3>
+                    <p><em>"Don't need to be an experienced Toastmaster to stand for roles. Just need curiosity, interest, time, and conviction."</em></p>
+                    <div class="story-highlight">
+                        <p><strong>Real Story:</strong> At our December 2, 2025 meeting, <strong>Amr</strong> attended his 2nd meeting ever and was elected <strong>Vice President of Membership</strong>! He said: <em>"Public speaking is a skill that improves over time, not overnight. You have to come and keep improving."</em></p>
+                        <p>Just weeks later, he's now leading our membership efforts and welcoming new guests to the club.</p>
+                        <p>✨ Leadership roles are about <strong>learning by doing</strong>, with full support from the committee.</p>
+                    </div>
+                </div>
+
+                <p>For official officer resources, visit <a href="https://www.toastmasters.org/leadership-central/officer-roles" target="_blank" style="color: #1e40af; font-weight: 600;">Toastmasters.org Leadership Central</a></p>
+            </div>
+        </section>
+
+        <!-- Leadership Roles Overview -->
+        <section>
+            <h2 class="section-title">Featured Leadership Opportunities</h2>
+            <div class="roles-grid">
+                <div class="role-card">
+                    <div class="role-header">
+                        <h3>Vice President of Membership</h3>
+                    </div>
+                    <div class="role-content">
+                        <h4>What this role does:</h4>
+                        <ul style="margin-left: 20px; color: #4b5563;">
+                            <li>Welcome guests and potential members at club meetings</li>
+                            <li>Coordinate guest visits and follow up with interested individuals</li>
+                            <li>Monitor member participation and engagement levels</li>
+                            <li>Organize member appreciation activities and recognition</li>
+                        </ul>
+                        <h4 style="margin-top: 16px;">Skills you'll develop:</h4>
+                        <p class="role-description">Relationship building, sales and persuasion, customer service, organization and planning, strategic thinking, empathy and listening</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+
+                <div class="role-card">
+                    <div class="role-header">
+                        <h3>Vice President of Public Relations</h3>
+                    </div>
+                    <div class="role-content">
+                        <h4>What this role does:</h4>
+                        <ul style="margin-left: 20px; color: #4b5563;">
+                            <li>Create and schedule engaging social media posts</li>
+                            <li>Manage club presence on Facebook, LinkedIn, Instagram</li>
+                            <li>Write compelling posts about club meetings and member achievements</li>
+                            <li>Create graphics, videos, and other visual content</li>
+                        </ul>
+                        <h4 style="margin-top: 16px;">Skills you'll develop:</h4>
+                        <p class="role-description">Social media marketing, content creation and copywriting, digital marketing, brand management, analytics and tracking</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Executive Roles -->
+        <section>
+            <h2 class="section-title">Other Executive Committee Positions</h2>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div class="role-card" style="margin-bottom: 20px;">
+                    <div class="role-header">
+                        <h3>President</h3>
+                    </div>
+                    <div class="role-content">
+                        <p class="role-description">The chief executive officer of the club, responsible for overall club success, member satisfaction, and strategic direction.</p>
+                        <p><strong>Time:</strong> 4-6 hours/week | <strong>Skills:</strong> Strategic leadership, team management, public representation</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+
+                <div class="role-card" style="margin-bottom: 20px;">
+                    <div class="role-header">
+                        <h3>Vice President Education (VPE)</h3>
+                    </div>
+                    <div class="role-content">
+                        <p class="role-description">Oversees all educational programs, schedules speakers, assigns meeting roles, and tracks member progress through Pathways.</p>
+                        <p><strong>Time:</strong> 3-5 hours/week | <strong>Skills:</strong> Program management, coaching, educational leadership</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+
+                <div class="role-card" style="margin-bottom: 20px;">
+                    <div class="role-header">
+                        <h3>Secretary</h3>
+                    </div>
+                    <div class="role-content">
+                        <p class="role-description">Maintains all club records, manages correspondence, and ensures compliance with Toastmasters International requirements.</p>
+                        <p><strong>Time:</strong> 2-3 hours/week | <strong>Skills:</strong> Organization, attention to detail, documentation</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+
+                <div class="role-card" style="margin-bottom: 20px;">
+                    <div class="role-header">
+                        <h3>Treasurer</h3>
+                    </div>
+                    <div class="role-content">
+                        <p class="role-description">Manages all club finances, collects dues, pays bills, and maintains accurate financial records.</p>
+                        <p><strong>Time:</strong> 2-3 hours/week | <strong>Skills:</strong> Financial management, accounting, attention to detail</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+
+                <div class="role-card" style="margin-bottom: 20px;">
+                    <div class="role-header">
+                        <h3>Sergeant at Arms (SAA)</h3>
+                    </div>
+                    <div class="role-content">
+                        <p class="role-description">Ensures the meeting space is properly set up, manages club property and equipment, and creates a welcoming environment.</p>
+                        <p><strong>Time:</strong> 2-3 hours/week | <strong>Skills:</strong> Organization, attention to detail, resource management</p>
+                        <a href="#" class="role-link">View Full Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section>
+            <div class="cta-section">
+                <h2>Interested in Leadership?</h2>
+                <p>Club officer elections are held annually in May. Talk to current officers about running for a leadership position and how you can contribute to our club's success.</p>
+                <div class="cta-buttons">
+                    <a href="/contact" class="cta-button btn-primary">Contact Us</a>
+                    <a href="/club-roles" class="cta-button btn-secondary">View All Roles</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MLP Toastmasters. All rights reserved.</p>
+            <p><a href="https://www.toastmasters.org">Toastmasters International</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle expandable details
+        document.querySelectorAll('.details-summary').forEach(summary => {
+            summary.addEventListener('click', function() {
+                const item = this.closest('.details-item');
+                item.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>

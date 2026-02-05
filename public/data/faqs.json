@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "What is Toastmasters?",
+    "answer": "Toastmasters International is a worldwide nonprofit educational organization that builds confidence and develops communication and leadership skills through public speaking. Our club meets regularly to practice these essential skills in a supportive environment.",
+    "category": "General",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": 2,
+    "question": "When and where do we meet?",
+    "answer": "MLP Toastmasters meets every other Tuesday evening at 6:30 PM in London. Check our events page for specific meeting dates and locations, or contact us for the latest schedule information.",
+    "category": "General",
+    "order": 2,
+    "active": true
+  },
+  {
+    "id": 3,
+    "question": "Can I attend a meeting before joining?",
+    "answer": "Absolutely! We welcome visitors and prospective members. You can attend up to 2 meetings free of charge before deciding to join. This gives you a great opportunity to experience our club culture and meet our members.",
+    "category": "Membership",
+    "order": 3,
+    "active": true
+  },
+  {
+    "id": 4,
+    "question": "What are the membership fees?",
+    "answer": "Our semi-annual membership dues are £80 (approximately £40 per month). Additional club-specific fees may apply. For detailed pricing and payment options, please contact our membership officer.",
+    "category": "Membership",
+    "order": 4,
+    "active": true
+  },
+  {
+    "id": 5,
+    "question": "How do I give my first speech?",
+    "answer": "Your first speech is an 'Ice Breaker' speech where you introduce yourself to the club. You'll be assigned a mentor who will guide you through the process. Don't worry - everyone starts as a beginner, and our club members are very supportive!",
+    "category": "Programs",
+    "order": 5,
+    "active": true
+  },
+  {
+    "id": 6,
+    "question": "What are the Competent Speaker and Advanced Leader programs?",
+    "answer": "The Competent Speaker program consists of 10 speeches that develop fundamental communication skills. The Advanced Leader program offers additional projects to develop specific leadership and speaking skills. Both paths help you progress at your own pace.",
+    "category": "Programs",
+    "order": 6,
+    "active": true
+  },
+  {
+    "id": 7,
+    "question": "Do I need public speaking experience to join?",
+    "answer": "No experience necessary! Toastmasters is designed for beginners. Our structured program starts with the basics and progresses at your own pace. Many of our most confident speakers started with significant anxiety about public speaking.",
+    "category": "General",
+    "order": 7,
+    "active": true
+  },
+  {
+    "id": 8,
+    "question": "How do I join?",
+    "answer": "Attend a meeting as a guest, meet our members, and ask about membership. You can join at any time during the year. Our membership officer will help you complete the application and answer any questions about dues and benefits.",
+    "category": "Membership",
+    "order": 8,
+    "active": true
+  }
+]

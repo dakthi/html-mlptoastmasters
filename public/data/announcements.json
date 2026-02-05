@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to MLP Toastmasters!",
+    "content": "We're excited to have you here. Whether you're a seasoned speaker or someone who's nervous about public speaking, we have a place for you in our supportive community.",
+    "type": "welcome",
+    "icon": "welcome",
+    "date": "2024-02-01",
+    "active": true,
+    "priority": "high",
+    "order": 1
+  },
+  {
+    "id": 2,
+    "title": "New Meeting Schedule",
+    "content": "We've updated our meeting schedule to better serve our members. We now meet every other Tuesday at 6:30 PM. Please update your calendars and let us know if you have any questions.",
+    "type": "update",
+    "icon": "calendar",
+    "date": "2024-02-03",
+    "active": true,
+    "priority": "high",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "title": "Humorous Speech Contest Coming Up!",
+    "content": "Mark your calendars! Our annual Humorous Speech Contest will take place on March 12th. This is a fantastic opportunity to showcase your comedic skills in a fun, supportive environment. Registration closes on March 5th.",
+    "type": "event",
+    "icon": "event",
+    "date": "2024-02-15",
+    "active": true,
+    "priority": "medium",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "title": "New Mentorship Pairings Announced",
+    "content": "Congratulations to all new members who have been paired with mentors! Check your email for mentor contact details. Your mentor is here to support you through your Toastmasters journey.",
+    "type": "update",
+    "icon": "people",
+    "date": "2024-02-20",
+    "active": true,
+    "priority": "medium",
+    "order": 4
+  },
+  {
+    "id": 5,
+    "title": "District Conference Registration Open",
+    "content": "Registration for our district conference (May 9-11) is now open! This is a great opportunity to connect with Toastmasters from across the region, attend workshops, and participate in contests. Early bird pricing available until March 31st.",
+    "type": "event",
+    "icon": "event",
+    "date": "2024-02-25",
+    "active": true,
+    "priority": "high",
+    "order": 5
+  },
+  {
+    "id": 6,
+    "title": "Club Officer Elections",
+    "content": "Our annual club officer elections will be held in April. If you're interested in taking on a leadership role, please reach out to our VP of Membership. It's a wonderful way to develop your leadership skills and contribute to the club.",
+    "type": "update",
+    "icon": "leadership",
+    "date": "2024-02-28",
+    "active": true,
+    "priority": "medium",
+    "order": 6
+  },
+  {
+    "id": 7,
+    "title": "Visitors Always Welcome!",
+    "content": "We love welcoming visitors to our club meetings. If you know someone interested in public speaking and personal development, invite them to visit! First and second visits are free.",
+    "type": "general",
+    "icon": "welcome",
+    "date": "2024-03-01",
+    "active": true,
+    "priority": "low",
+    "order": 7
+  },
+  {
+    "id": 8,
+    "title": "April Workshop Series Announced",
+    "content": "Coming in April: Storytelling, Technical Speaking, and Leadership workshops. Details and registration coming soon. These free workshops are exclusive to members and visiting guests.",
+    "type": "event",
+    "icon": "event",
+    "date": "2024-03-05",
+    "active": true,
+    "priority": "medium",
+    "order": 8
+  }
+]

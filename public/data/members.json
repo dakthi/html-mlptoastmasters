@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Mitchell",
+    "role": "Club President",
+    "bio": "Sarah has been a Toastmasters member for 5 years and has held multiple club leadership roles. She's passionate about helping new members develop their speaking skills.",
+    "email": "sarah.mitchell@example.com",
+    "joinDate": "2019-03-15",
+    "competentSpeaker": true,
+    "advancedLeader": true,
+    "image": "/img/member-1.jpg",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "James Chen",
+    "role": "Vice President of Education",
+    "bio": "James leads our educational programs and mentorship initiatives. He's completed the Competent Speaker path and is working on Advanced Leader projects.",
+    "email": "james.chen@example.com",
+    "joinDate": "2021-06-20",
+    "competentSpeaker": true,
+    "advancedLeader": false,
+    "image": "/img/member-2.jpg",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Priya Patel",
+    "role": "Vice President of Membership",
+    "bio": "Priya is our friendly face to new members and visitors. She's been with Toastmasters for 3 years and loves the community we've built together.",
+    "email": "priya.patel@example.com",
+    "joinDate": "2021-09-10",
+    "competentSpeaker": true,
+    "advancedLeader": false,
+    "image": "/img/member-3.jpg",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Michael O'Brien",
+    "role": "Treasurer",
+    "bio": "Michael manages our club's finances and administration. He brings organization and attention to detail to every aspect of club operations.",
+    "email": "michael.obrien@example.com",
+    "joinDate": "2020-01-25",
+    "competentSpeaker": true,
+    "advancedLeader": true,
+    "image": "/img/member-4.jpg",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Emma Watson",
+    "role": "Sergeant at Arms",
+    "bio": "Emma ensures our meetings run smoothly and creates a welcoming environment for all. She's been a dedicated member for 4 years.",
+    "email": "emma.watson@example.com",
+    "joinDate": "2020-05-18",
+    "competentSpeaker": true,
+    "advancedLeader": true,
+    "image": "/img/member-5.jpg",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "David Singh",
+    "role": "Member",
+    "bio": "David is currently working through the Competent Speaker path. He's made incredible progress and is nearly finished with his final speech.",
+    "email": "david.singh@example.com",
+    "joinDate": "2023-11-02",
+    "competentSpeaker": 7,
+    "advancedLeader": false,
+    "image": "/img/member-6.jpg",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Anderson",
+    "role": "Member",
+    "bio": "Lisa joined six months ago and has been amazing to watch grow. She's completed 4 speeches and continues to develop her confidence.",
+    "email": "lisa.anderson@example.com",
+    "joinDate": "2023-08-15",
+    "competentSpeaker": 4,
+    "advancedLeader": false,
+    "image": "/img/member-7.jpg",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Robert Taylor",
+    "role": "Member",
+    "bio": "Robert is a newer member who's taken to Toastmasters enthusiastically. He's just completed his Ice Breaker and is excited about the journey ahead.",
+    "email": "robert.taylor@example.com",
+    "joinDate": "2024-01-20",
+    "competentSpeaker": 1,
+    "advancedLeader": false,
+    "image": "/img/member-8.jpg",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "name": "Sophie Laurent",
+    "role": "Mentor",
+    "bio": "Sophie mentors new members and helps them navigate their first speeches. She's completed both Competent Speaker and Advanced Leader programs.",
+    "email": "sophie.laurent@example.com",
+    "joinDate": "2019-10-08",
+    "competentSpeaker": true,
+    "advancedLeader": true,
+    "image": "/img/member-9.jpg",
+    "status": "active",
+    "mentor": true
+  },
+  {
+    "id": 10,
+    "name": "Marcus Johnson",
+    "role": "Member",
+    "bio": "Marcus recently rejoined after a brief break. He's previously completed the Competent Speaker program and is diving back in to refresh his skills.",
+    "email": "marcus.johnson@example.com",
+    "joinDate": "2022-03-14",
+    "competentSpeaker": true,
+    "advancedLeader": false,
+    "image": "/img/member-10.jpg",
+    "status": "active"
+  }
+]

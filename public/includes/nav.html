@@ -1,0 +1,103 @@
+<!-- MLP Toastmasters Navigation -->
+<header class="w-full bg-white border-b border-gray-200 shadow-sm">
+    <div class="container mx-auto px-4 xl:px-0">
+        <!-- Top bar with search (desktop only) -->
+        <div class="hidden lg:flex justify-end py-2 border-b border-gray-100">
+            <div class="flex items-center space-x-4">
+                <div class="relative search-container">
+                    <input
+                        type="text"
+                        placeholder="Search articles, pages..."
+                        class="pl-4 pr-10 py-1 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-900 w-64 search-input"
+                    />
+                    <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+
+                    <!-- Search Results Dropdown -->
+                    <div class="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-md shadow-lg z-50 mt-0.5 max-h-96 overflow-y-auto search-results hidden"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main header -->
+        <div class="h-16 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="/" class="flex items-center">
+                <div>
+                    <h1 class="text-xl font-bold text-blue-900 tracking-tight">
+                        MLP TOASTMASTERS
+                    </h1>
+                    <p class="text-sm text-gray-600 font-medium -mt-1">
+                        London Bridge Speakers
+                    </p>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex space-x-8 items-center">
+                <a href="/" class="text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    HOME
+                </a>
+                <a href="/blog.html" class="text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    BLOG
+                </a>
+                <a href="/#about" class="text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    ABOUT
+                </a>
+                <a href="/#contact" class="text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    CONTACT
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button
+                class="lg:hidden text-blue-900 transition-colors mobile-menu-btn"
+                aria-label="Toggle menu"
+                aria-expanded="false"
+            >
+                <svg class="menu-icon w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg class="close-icon w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="lg:hidden mobile-menu hidden py-4 border-t border-gray-200 bg-white">
+            <nav class="space-y-4">
+                <a href="/" class="block text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    HOME
+                </a>
+                <a href="/blog.html" class="block text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    BLOG
+                </a>
+                <a href="/#about" class="block text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    ABOUT
+                </a>
+                <a href="/#contact" class="block text-sm font-semibold text-gray-700 hover:text-blue-900 transition-colors tracking-wide">
+                    CONTACT
+                </a>
+            </nav>
+
+            <!-- Mobile Search -->
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <div class="relative mobile-search-container">
+                    <input
+                        type="text"
+                        placeholder="Search articles, pages..."
+                        class="w-full pl-4 pr-10 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-900 mobile-search-input"
+                    />
+                    <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+
+                <!-- Mobile Search Results -->
+                <div class="mt-2 bg-white border border-gray-200 rounded-md shadow-lg max-h-64 overflow-y-auto mobile-search-results hidden"></div>
+            </div>
+        </div>
+    </div>
+</header>

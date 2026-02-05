@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "text": "MLP Toastmasters has completely transformed my confidence. When I joined, I could barely speak in front of a group. Now I look forward to every meeting and feel so much more confident in my professional life.",
+    "author": "Sarah Mitchell",
+    "role": "Marketing Manager, London",
+    "image": "/img/user-1.png",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "text": "The supportive community at MLP Toastmasters is incredible. Everyone is genuinely interested in helping you succeed. It's not just about public speaking - it's about personal growth and making lasting friendships.",
+    "author": "James Chen",
+    "role": "Software Engineer, London",
+    "image": "/img/user-2.png",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "text": "I've held leadership roles at Toastmasters and it's given me invaluable experience. The skills I've learned here have directly impacted my career progression and helped me become a better leader in my organization.",
+    "author": "Priya Patel",
+    "role": "Project Lead, Financial Services",
+    "image": "/img/user-3.png",
+    "active": true,
+    "order": 3
+  },
+  {
+    "id": 4,
+    "text": "The structured approach to speech delivery in Toastmasters is fantastic. With each project, you focus on a specific skill and get immediate, constructive feedback from experienced speakers. It's the best way to improve.",
+    "author": "Michael O'Brien",
+    "role": "Consultant, Dublin",
+    "image": "/img/user-4.png",
+    "active": true,
+    "order": 4
+  },
+  {
+    "id": 5,
+    "text": "Three years into my Toastmasters journey and I still love every minute. From Ice Breaker to Competent Speaker to leadership roles - it's been an amazing transformation. I recommend MLP Toastmasters to everyone!",
+    "author": "Emma Watson",
+    "role": "HR Director, London",
+    "image": "/img/user-5.png",
+    "active": true,
+    "order": 5
+  }
+]

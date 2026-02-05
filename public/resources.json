@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "section": "Meeting Resources",
+    "items": [
+      {
+        "id": 1,
+        "title": "Meeting Agenda Template",
+        "description": "Standard template for our meeting structure",
+        "link": "#",
+        "category": "meeting-resources"
+      },
+      {
+        "id": 2,
+        "title": "Evaluation Forms",
+        "description": "Forms for evaluating speeches and roles",
+        "link": "#",
+        "category": "meeting-resources"
+      },
+      {
+        "id": 3,
+        "title": "Timer Instructions",
+        "description": "Guide for timing speeches and roles",
+        "link": "#",
+        "category": "meeting-resources"
+      },
+      {
+        "id": 4,
+        "title": "Role Descriptions",
+        "description": "Detailed descriptions of meeting roles",
+        "link": "#",
+        "category": "meeting-resources"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "section": "External Resources",
+    "items": [
+      {
+        "id": 5,
+        "title": "Pathways Learning Experience",
+        "description": "Official Toastmasters Pathways guide",
+        "link": "https://www.toastmasters.org/pathways-overview",
+        "external": true,
+        "category": "external-resources"
+      },
+      {
+        "id": 6,
+        "title": "District 91 Website",
+        "description": "News and events from our district",
+        "link": "https://d91toastmasters.org.uk",
+        "external": true,
+        "category": "external-resources"
+      }
+    ]
+  }
+]

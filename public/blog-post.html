@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Blog Post | MLP Toastmasters</title>
+    <meta name="description" id="page-description" content="">
+    <meta name="keywords" id="page-keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Navigation & Footer Manager -->
+    <script src="/js/include-nav-footer.js" defer></script>
+
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Structured Data will be injected dynamically -->
+    <script type="application/ld+json" id="structured-data">
+    </script>
+
+    <style>
+        /* Prose styling for markdown content */
+        .prose {
+            max-width: none;
+        }
+        .prose h2 {
+            font-size: 1.875rem;
+            font-weight: bold;
+            color: #111827;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        .prose h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #111827;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .prose p {
+            color: #374151;
+            line-height: 1.75;
+            margin-bottom: 1.5rem;
+        }
+        .prose ul {
+            margin: 1.5rem 0;
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+        .prose ol {
+            margin: 1.5rem 0;
+            list-style-type: decimal;
+            padding-left: 1.5rem;
+        }
+        .prose li {
+            color: #374151;
+            margin-bottom: 0.5rem;
+        }
+        .prose strong {
+            color: #111827;
+            font-weight: 600;
+        }
+        .prose a {
+            color: #1e3a8a;
+            text-decoration: none;
+        }
+        .prose a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="bg-gray-50 border-b border-gray-200 py-3">
+        <div class="container mx-auto px-4 xl:px-0">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-blue-900 hover:underline">Home</a>
+                </li>
+                <li class="text-gray-500">/</li>
+                <li>
+                    <a href="/blog.html" class="text-blue-900 hover:underline">Blog</a>
+                </li>
+                <li class="text-gray-500">/</li>
+                <li>
+                    <a href="#" id="breadcrumb-category" class="text-blue-900 hover:underline"></a>
+                </li>
+                <li class="text-gray-500">/</li>
+                <li class="text-gray-600" id="breadcrumb-title"></li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <article class="py-12">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-4xl mx-auto">
+                <!-- Category Badge -->
+                <span id="article-category" class="inline-block px-4 py-2 bg-blue-100 text-blue-900 font-semibold rounded-full mb-4">
+                </span>
+
+                <!-- Title -->
+                <h1 id="article-title" class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                </h1>
+
+                <!-- Excerpt -->
+                <p id="article-excerpt" class="text-xl text-gray-600 mb-8">
+                </p>
+
+                <!-- Meta Information -->
+                <div class="flex flex-wrap items-center gap-6 text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">
+                    <div class="flex items-center gap-2">
+                        <div class="w-10 h-10 bg-blue-900 rounded-full flex items-center justify-center text-white font-bold" id="author-avatar">
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900" id="author-name"></p>
+                            <p class="text-xs" id="author-bio"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-gray-900">Published</p>
+                        <p id="publish-date"></p>
+                    </div>
+                    <div id="read-time-container">
+                        <p class="font-semibold text-gray-900">Reading Time</p>
+                        <p id="read-time"></p>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-gray-900">Views</p>
+                        <p id="view-count"></p>
+                    </div>
+                </div>
+
+                <!-- Article Content -->
+                <div id="article-content" class="prose prose-lg mb-12">
+                    <!-- Content will be loaded here -->
+                </div>
+
+                <!-- Tags -->
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Tags:</h3>
+                    <div id="article-tags" class="flex flex-wrap gap-2">
+                        <!-- Tags will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Author Bio -->
+                <div class="bg-gray-50 rounded-xl p-8 mb-12">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">About the Author</h3>
+                    <div class="flex items-start gap-4">
+                        <div class="w-16 h-16 bg-blue-900 rounded-full flex items-center justify-center text-white text-2xl font-bold flex-shrink-0" id="author-avatar-large">
+                        </div>
+                        <div>
+                            <p class="font-semibold text-lg text-gray-900 mb-2" id="author-name-bio"></p>
+                            <p class="text-gray-700" id="author-bio-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="bg-blue-900 text-white rounded-xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Ready to Overcome Your Public Speaking Fear?
+                    </h3>
+                    <p class="text-blue-100 mb-6">
+                        Join MLP Toastmasters and start your journey to confident speaking
+                    </p>
+                    <a
+                        href="/contact.html"
+                        class="inline-block px-8 py-3 bg-white text-blue-900 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
+                    >
+                        Visit Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- JavaScript -->
+    <script src="/js/blog-post.js"></script>
+</body>
+</html>

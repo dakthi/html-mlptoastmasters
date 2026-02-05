@@ -1,0 +1,122 @@
+{
+  "club": {
+    "name": "MLP Toastmasters",
+    "regularMeetings": {
+      "day": "Tuesday",
+      "time": "6:30 PM",
+      "duration": "~2 hours",
+      "frequency": "Weekly",
+      "location": {
+        "venue": "St Christopher's Inn",
+        "room": "Private Room",
+        "address": "",
+        "notes": "Permanent dedicated club home"
+      },
+      "notes": "Optional post-meeting socials available"
+    }
+  },
+  "meetingStructure": [
+    {
+      "id": "opening",
+      "order": 1,
+      "title": "Opening & Welcome",
+      "duration": "5-10 minutes",
+      "officialDescription": "The President or designated officer opens the meeting, welcomes members and guests, and conducts any necessary club business.",
+      "ourInterpretation": "This is where we set the tone for the evening. The President welcomes everyone, introduces any first-time guests, and handles quick administrative items like announcements.",
+      "keyPoints": [
+        "President welcomes all attendees",
+        "Guests are introduced and welcomed",
+        "Club announcements are shared"
+      ]
+    }
+  ],
+  "meetingComponents": [
+    {
+      "id": "prepared-speeches",
+      "title": "Prepared Speeches",
+      "description": "We aim to have 3 speeches at every meeting, giving members regular opportunities to practice and improve. Members request speech slots through EasySpeak based on their Pathways projects.",
+      "average_count_per_meeting": 3,
+      "signup_system": "EasySpeak"
+    },
+    {
+      "id": "speech-evaluations",
+      "title": "Speech Evaluations",
+      "description": "Each prepared speech receives constructive feedback from an assigned evaluator, helping speakers understand their strengths and areas for growth."
+    },
+    {
+      "id": "table-topics",
+      "title": "Table Topics",
+      "description": "Impromptu speaking practice where members respond to surprise questions, building confidence in thinking on their feet.",
+      "duration_per_speech": "1-2 minutes",
+      "link": "/meetings-table-topics.html"
+    },
+    {
+      "id": "meeting-roles",
+      "title": "Meeting Roles",
+      "description": "Every meeting includes roles such as:",
+      "roles": [
+        {
+          "title": "Toastmaster",
+          "description": "Meeting leader"
+        },
+        {
+          "title": "Timer",
+          "description": "Tracks all speaking times"
+        },
+        {
+          "title": "Ah-Counter",
+          "description": "Notes filler words"
+        },
+        {
+          "title": "Grammarian",
+          "description": "Highlights good language use"
+        },
+        {
+          "title": "General Evaluator",
+          "description": "Provides overall meeting feedback"
+        },
+        {
+          "title": "Table Topics Master",
+          "description": "Leads impromptu speaking"
+        }
+      ],
+      "notes": "All members are encouraged to participate in roles to develop leadership and organizational skills."
+    }
+  ],
+  "signUp": {
+    "system": "EasySpeak",
+    "url": "https://toastmasterclub.org",
+    "features": [
+      "Indicate attendance for upcoming meetings",
+      "Request speech slots for Pathways projects",
+      "Sign up for meeting roles",
+      "View meeting agendas",
+      "Update speech titles and workbook assignments"
+    ],
+    "deadline": "Sunday before Tuesday meeting",
+    "deadline_reason": "To help with planning"
+  },
+  "bestPractices": {
+    "speechFrequency": "Every 2-3 meetings",
+    "speechFrequencyReason": "Regular practice is the best way to progress through Pathways",
+    "tips": [
+      "Give a speech every 2-3 meetings for regular practice",
+      "Take on different meeting roles to develop various skills",
+      "Provide speech slots in advance so evaluators can prepare",
+      "Update your workbook assignments in EasySpeak after completing speeches",
+      "Arrive by 6:30pm so we can start on time"
+    ],
+    "competitiveAdvantage": "Larger clubs don't offer as many speaking opportunities as we do. Take advantage of the regular chances to speak and practice!"
+  },
+  "whatToExpect": {
+    "description": "Our meetings are designed to help you develop your communication and leadership skills in a supportive and encouraging environment. Whether you're a first-time guest or a seasoned member, you'll find valuable opportunities to learn and grow.",
+    "activities": [
+      "Prepared speeches by members working on their Pathways projects",
+      "Table Topics session for impromptu speaking practice",
+      "Constructive evaluations to help speakers improve",
+      "Role opportunities to develop leadership skills",
+      "Networking and fellowship with fellow members",
+      "Business updates and club announcements"
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join MLP Toastmasters | Membership</title>
+    <meta name="description" content="Join MLP London Bridge Speakers Toastmasters. Membership only £47 for six months. Develop public speaking and leadership skills at St Christopher's Inn, London.">
+    <meta name="keywords" content="join toastmasters, toastmasters membership, london bridge toastmasters join, public speaking membership, toastmasters london join, become a member, toastmasters london bridge, join speaking club london">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MLP Toastmasters",
+      "description": "Join MLP London Bridge Speakers Toastmasters Club for public speaking and leadership development",
+      "url": "https://mlptoastmasters.org",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Membership Information",
+        "areaServed": "GB"
+      }
+    }
+    </script>
+
+    <style>
+        .primary-color { color: #004165; }
+        .primary-bg { background-color: #004165; }
+        .primary-hover:hover { background-color: #003050; }
+        .accent-color { color: #ff6b35; }
+        .accent-bg { background-color: #ff6b35; }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            ring: 2px;
+            ring-offset: 2px;
+        }
+
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .story-box {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .story-box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .success-message {
+            display: none;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Main Content Container -->
+    <div class="min-h-screen py-12">
+        <div class="container mx-auto px-4 xl:px-0">
+            <div class="max-w-3xl mx-auto">
+
+                <!-- Header Section -->
+                <div id="form-section" class="bg-white rounded-lg shadow-md p-8 mb-6">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-2">Join MLP London Bridge Speakers</h1>
+                    <p class="text-gray-600">
+                        Take the first step towards becoming a confident speaker and leader. Fill out the form below and we'll be in touch with membership details.
+                    </p>
+                </div>
+
+                <!-- Success Message (Hidden by default) -->
+                <div id="success-message" class="success-message bg-gray-50 py-12">
+                    <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-8 text-center">
+                        <div class="mb-6">
+                            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <h2 class="text-2xl font-bold text-gray-900 mb-2">Application received!</h2>
+                            <p class="text-gray-600">Thank you for your interest in joining MLP London Bridge Speakers.</p>
+                        </div>
+
+                        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 text-left mb-6">
+                            <h3 class="font-semibold text-blue-900 mb-2">What happens next?</h3>
+                            <ul class="space-y-2 text-sm text-blue-800 list-disc list-inside">
+                                <li>You'll receive a confirmation email shortly with next steps</li>
+                                <li>Our VP Membership will contact you within 2-3 business days</li>
+                                <li>You'll receive information about membership dues and payment options</li>
+                                <li>We'll invite you to your first meeting as a new member!</li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-3">
+                            <a href="/" class="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors font-medium uppercase tracking-wide">
+                                Return to Homepage
+                            </a>
+                            <p class="text-sm text-gray-500">
+                                Questions?
+                                <a href="/contact" class="primary-color hover:underline">Contact us through our form</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membership Investment Section -->
+                <div class="bg-blue-50 rounded-lg p-8 mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Membership investment</h2>
+                    <p class="text-gray-700 text-lg mb-4">
+                        Membership is only <strong>£47 for six months</strong> (Toastmasters International membership fee) - that's less than £8 per month!
+                    </p>
+                    <div class="bg-white rounded-lg p-4 mb-6">
+                        <p class="text-gray-800 italic">
+                            As one of our members said: "Paid the best money I'll spend this year!"
+                        </p>
+                    </div>
+                    <p class="text-gray-700 mb-3">
+                        The membership fee includes:
+                    </p>
+                    <ul class="space-y-2 text-gray-700 ml-6 mb-4">
+                        <li>• 2-3 meetings per month (1st, 3rd, and 5th Tuesday) with speaking opportunities</li>
+                        <li>• Access to all 6 Toastmasters Pathways learning programmes</li>
+                        <li>• Assigned mentor to guide your progress</li>
+                        <li>• Regular feedback from experienced evaluators</li>
+                        <li>• Leadership development through meeting roles</li>
+                        <li>• Access to all other Toastmasters clubs</li>
+                        <li>• Supportive community atmosphere</li>
+                    </ul>
+                    <p class="text-gray-700 font-medium italic">
+                        "You can do as much or as little as you would like in Toastmasters. There is no right way to do Toastmasters, just do it for yourself and have fun." - From our November 18, 2025 meeting
+                    </p>
+                </div>
+
+                <!-- Why Members Came Back Section -->
+                <div class="bg-white rounded-lg shadow-md p-8 mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Why members came back</h2>
+                    <p class="text-gray-700 mb-6">
+                        Hear from guests who visited us and decided to return:
+                    </p>
+
+                    <div class="space-y-6">
+                        <!-- Hassan's Story -->
+                        <div class="pl-4 py-2 story-box">
+                            <div class="bg-blue-50 rounded-lg p-4 mb-2">
+                                <p class="text-gray-800 italic mb-3">
+                                    "I came here two weeks ago for the first time... I have a mentor who challenged me to work on my public speaking skills because I initially hated it - so many memories from being forced to do it in school. But I'd never actually done it out of choice."
+                                </p>
+                                <p class="text-gray-800 italic mb-3">
+                                    "Quick story: I came on the first visit, stood outside, couldn't come in, ran away. And then I came back again, tried it, enjoyed it."
+                                </p>
+                                <p class="text-gray-800 font-medium">
+                                    "It's like 'eating the frog' - you do the hardest thing in your week first. After clearing that 20-foot gap, everything else in my week was four-foot gaps, five-foot gaps, because I'd already challenged the most difficult thing. So I'm back here to enjoy myself and improve my public speaking."
+                                </p>
+                            </div>
+                            <p class="text-sm text-gray-600">— Hassan, returned after 2 weeks</p>
+                        </div>
+
+                        <!-- Sophie-Ann's Story -->
+                        <div class="pl-4 py-2 story-box">
+                            <div class="bg-green-50 rounded-lg p-4 mb-2">
+                                <p class="text-gray-800 italic">
+                                    "I am back for my second time. Persistence is key. I found this group who was super welcoming, and it was just a brilliant place to be."
+                                </p>
+                            </div>
+                            <p class="text-sm text-gray-600">— Sophie-Ann, returning guest</p>
+                        </div>
+
+                        <!-- Sam's Story -->
+                        <div class="pl-4 py-2 story-box">
+                            <div class="bg-purple-50 rounded-lg p-4 mb-2">
+                                <p class="text-gray-800 italic">
+                                    "I have career goals I'm trying to build towards and I need to persuade people that I'm reputable. I recognized I need to work on my breathing... Two weeks ago, last session, it was clear as soon as I started - this is something I can work on and need to work on all the time."
+                                </p>
+                            </div>
+                            <p class="text-sm text-gray-600">— Sam, committed to continuous improvement</p>
+                        </div>
+
+                        <!-- Amr's Story -->
+                        <div class="pl-4 py-2 story-box">
+                            <div class="bg-orange-50 rounded-lg p-4 mb-2">
+                                <p class="text-gray-800 italic">
+                                    "This is the second time for me here. I actually enjoyed the last time which was the first time - very, very good, very organized. Public speaking is a skill that improves over time, not overnight. You have to come and keep improving."
+                                </p>
+                            </div>
+                            <p class="text-sm text-gray-600">— Amr, registered for membership (later became VP Membership!)</p>
+                        </div>
+
+                        <!-- Donna's Story -->
+                        <div class="pl-4 py-2 story-box">
+                            <div class="bg-red-50 rounded-lg p-4 mb-2">
+                                <p class="text-gray-800 italic">
+                                    "I make myself ill just thinking about the thoughts of speaking in front of people. Speaking in front of more than two people is terrifying. For me it's a massive journey and transformation. Public speaking and communication - these are skills for life."
+                                </p>
+                            </div>
+                            <p class="text-sm text-gray-600">— Donna, starting her transformation journey</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-gray-100 rounded-lg p-4">
+                        <p class="text-gray-800 font-medium">
+                            💡 Note: These are real quotes from guests at our December 2, 2025 meeting. Names used with permission in anonymized form.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Your Journey With Us Section -->
+                <div class="bg-white rounded-lg shadow-md p-8 mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Your journey with us</h2>
+                    <p class="text-gray-700 mb-4">
+                        When you join MLP Toastmasters, you become part of a supportive community focused on growth:
+                    </p>
+                    <ul class="space-y-3 text-gray-700 ml-6 mb-4">
+                        <li>• Regular speaking opportunities (we aim for 3 speeches per meeting)</li>
+                        <li>• Constructive feedback to accelerate your improvement</li>
+                        <li>• Various meeting roles to build leadership skills</li>
+                        <li>• Table Topics practice for impromptu speaking confidence</li>
+                        <li>• Post-meeting social gatherings</li>
+                        <li>• Permanent meeting space in a comfortable private room</li>
+                        <li>• Small group atmosphere where everyone is known and supported</li>
+                    </ul>
+                    <p class="text-gray-700">
+                        New members are welcomed warmly and guided through every step. Even if you've just joined, you can participate in meeting roles with full support from experienced members.
+                    </p>
+                </div>
+
+                <!-- Renewal Information Section -->
+                <div class="bg-gray-100 rounded-lg p-6 mb-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Easy membership renewal</h3>
+                    <p class="text-gray-700 mb-3">
+                        Renewing your membership is quick and simple:
+                    </p>
+                    <ol class="space-y-2 text-gray-700 ml-6 mb-3 list-decimal">
+                        <li>Login to Toastmasters.org (not EasySpeak)</li>
+                        <li>Click on 'Self-pay'</li>
+                        <li>Complete the payment process</li>
+                    </ol>
+                    <p class="text-gray-700 text-sm">
+                        The system will show if you need to renew. Membership periods run for six months, with most renewals happening in September/March.
+                    </p>
+                </div>
+
+                <!-- Membership Form -->
+                <form id="join-form" class="bg-white rounded-lg shadow-md p-8">
+                    <div class="space-y-6">
+                        <!-- Personal Information -->
+                        <div>
+                            <h2 class="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b">Personal information</h2>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">
+                                        First Name <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="firstName"
+                                        name="firstName"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Last Name <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="lastName"
+                                        name="lastName"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Email Address <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Phone Number <span class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <label for="address" class="block text-sm font-medium text-gray-700 mb-1">
+                                    Address
+                                </label>
+                                <input
+                                    type="text"
+                                    id="address"
+                                    name="address"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    placeholder="Street address, City, Postcode"
+                                />
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                                <div>
+                                    <label for="occupation" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Occupation
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="occupation"
+                                        name="occupation"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+
+                                <div>
+                                    <label for="company" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Company/Organization
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="company"
+                                        name="company"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Membership Details -->
+                        <div>
+                            <h2 class="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b">Membership details</h2>
+
+                            <div class="space-y-4">
+                                <div>
+                                    <label for="experience" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Public Speaking Experience <span class="text-red-500">*</span>
+                                    </label>
+                                    <select
+                                        id="experience"
+                                        name="experience"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    >
+                                        <option value="beginner">Beginner - Little to no experience</option>
+                                        <option value="intermediate">Intermediate - Some experience</option>
+                                        <option value="advanced">Advanced - Extensive experience</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="visitedMeeting" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Have you visited one of our meetings? <span class="text-red-500">*</span>
+                                    </label>
+                                    <select
+                                        id="visitedMeeting"
+                                        name="visitedMeeting"
+                                        required
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                    >
+                                        <option value="no">No, not yet</option>
+                                        <option value="yes-once">Yes, once</option>
+                                        <option value="yes-multiple">Yes, multiple times</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="whyJoin" class="block text-sm font-medium text-gray-700 mb-1">
+                                        Why do you want to join Toastmasters? <span class="text-red-500">*</span>
+                                    </label>
+                                    <textarea
+                                        id="whyJoin"
+                                        name="whyJoin"
+                                        required
+                                        rows="4"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        placeholder="Share your goals and what you hope to achieve..."
+                                    ></textarea>
+                                </div>
+
+                                <div>
+                                    <label for="hearAboutUs" class="block text-sm font-medium text-gray-700 mb-1">
+                                        How did you hear about us?
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="hearAboutUs"
+                                        name="hearAboutUs"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                        placeholder="e.g., Google search, friend referral, social media..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Error Message -->
+                        <div id="join-error" class="hidden bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-md" role="alert"></div>
+
+                        <!-- Submit Button -->
+                        <div class="pt-4">
+                            <button
+                                type="submit"
+                                id="join-submit"
+                                class="w-full bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-wide"
+                            >
+                                Submit Application
+                            </button>
+                            <p class="text-sm text-gray-500 text-center mt-3">
+                                By submitting this form, you agree to be contacted about membership information.
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Handler Script -->
+    <script>
+        document.getElementById('join-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = {
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                address: document.getElementById('address').value,
+                occupation: document.getElementById('occupation').value,
+                company: document.getElementById('company').value,
+                whyJoin: document.getElementById('whyJoin').value,
+                experience: document.getElementById('experience').value,
+                hearAboutUs: document.getElementById('hearAboutUs').value,
+                visitedMeeting: document.getElementById('visitedMeeting').value,
+            };
+
+            const errorDiv = document.getElementById('join-error');
+            const submitBtn = document.getElementById('join-submit');
+            const formSection = document.getElementById('form-section');
+            const successMessage = document.getElementById('success-message');
+
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting Application...';
+            errorDiv.classList.add('hidden');
+
+            try {
+                const response = await fetch('/api/membership/apply', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    // Hide form and show success message
+                    formSection.style.display = 'none';
+                    document.getElementById('join-form').style.display = 'none';
+                    successMessage.classList.add('show');
+
+                    // Scroll to top to see success message
+                    window.scrollTo(0, 0);
+                } else {
+                    const data = await response.json();
+                    throw new Error(data.error || 'Failed to submit application');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                errorDiv.textContent = error.message || 'Something went wrong. Please try again.';
+                errorDiv.classList.remove('hidden');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit Application';
+            }
+        });
+    </script>
+
+</body>
+</html>

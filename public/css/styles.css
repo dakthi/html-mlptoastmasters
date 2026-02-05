@@ -1,0 +1,166 @@
+/* Custom styles for MLP Toastmasters */
+
+/* Color variables matching Tailwind config */
+:root {
+  --primary-50: #e6f3ff;
+  --primary-100: #cce7ff;
+  --primary-500: #004165;
+  --primary-600: #003a5c;
+  --primary-700: #003352;
+  --primary-900: #00263f;
+  --primary-950: #001f36;
+
+  --accent-500: #772432;
+  --accent-600: #6b202c;
+  --accent-700: #5f1c27;
+
+  --blue-900: #1e3a8a;
+}
+
+/* Base styles */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* Container */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Typography */
+em {
+  font-weight: bold;
+  color: black;
+  font-style: normal;
+}
+
+/* Custom color classes */
+.text-primary-600 { color: var(--primary-600); }
+.text-primary-700 { color: var(--primary-700); }
+.text-accent-600 { color: var(--accent-600); }
+.text-accent-700 { color: var(--accent-700); }
+.bg-primary-50 { background-color: var(--primary-50); }
+.bg-primary-600 { background-color: var(--primary-600); }
+.bg-primary-950 { background-color: var(--primary-950); }
+.bg-accent-50 { background-color: #fdf2f4; }
+.bg-accent-600 { background-color: var(--accent-600); }
+.bg-accent-700 { background-color: var(--accent-700); }
+.bg-blue-900 { background-color: var(--blue-900); }
+.border-primary-600 { border-color: var(--primary-600); }
+.border-accent-600 { border-color: var(--accent-600); }
+
+/* Hover states */
+.hover\:text-primary-700:hover { color: var(--primary-700); }
+.hover\:bg-primary-700:hover { background-color: var(--primary-700); }
+.hover\:bg-primary-900:hover { background-color: var(--primary-900); }
+.hover\:bg-accent-700:hover { background-color: var(--accent-700); }
+
+/* Navigation mobile menu animation */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.mobile-menu.active {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}
+
+/* Form styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  appearance: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-600);
+  box-shadow: 0 0 0 3px rgba(0, 65, 101, 0.1);
+}
+
+/* Button animations */
+button,
+.button {
+  transition: all 0.3s ease;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Mobile menu toggle */
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu-icon span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #374151;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

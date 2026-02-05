@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "email",
+    "title": "General Enquiries",
+    "value": "info@mlptoastmasters.org",
+    "description": "For general questions, visitor inquiries, and club information",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": 2,
+    "type": "email",
+    "title": "Membership",
+    "value": "membership@mlptoastmasters.org",
+    "description": "For membership inquiries, applications, and dues information",
+    "order": 2,
+    "active": true
+  },
+  {
+    "id": 3,
+    "type": "phone",
+    "title": "Club Line",
+    "value": "+44 (0) 20 XXXX XXXX",
+    "description": "Call for information about meetings and events",
+    "order": 3,
+    "active": true
+  },
+  {
+    "id": 4,
+    "type": "email",
+    "title": "Vice President of Membership",
+    "value": "vpm@mlptoastmasters.org",
+    "description": "For recruitment and membership growth questions",
+    "order": 4,
+    "active": true
+  },
+  {
+    "id": 5,
+    "type": "email",
+    "title": "Sergeant at Arms",
+    "value": "saa@mlptoastmasters.org",
+    "description": "For event logistics and venue information",
+    "order": 5,
+    "active": true
+  },
+  {
+    "id": 6,
+    "type": "website",
+    "title": "Website",
+    "value": "www.mlptoastmasters.org",
+    "description": "Visit our main website for full information and resources",
+    "order": 6,
+    "active": true
+  },
+  {
+    "id": 7,
+    "type": "social",
+    "title": "Facebook",
+    "value": "https://facebook.com/mlptoastmasters",
+    "description": "Follow us on Facebook for updates and announcements",
+    "order": 7,
+    "active": true
+  },
+  {
+    "id": 8,
+    "type": "social",
+    "title": "LinkedIn",
+    "value": "https://linkedin.com/company/mlp-toastmasters",
+    "description": "Connect with our community on LinkedIn",
+    "order": 8,
+    "active": true
+  }
+]

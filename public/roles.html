@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the various leadership roles and committee positions in our Toastmasters club. Discover how each role contributes to member growth and club success.">
+    <meta name="keywords" content="toastmasters roles, club officers, committee positions, leadership roles, toastmasters responsibilities, club executive, meeting roles">
+    <title>Club Roles & Responsibilities - MLP Toastmasters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #f9fafb, #fff);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        header {
+            background-color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #4b5563;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Introduction Section */
+        .intro-section {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            font-size: 18px;
+            color: #4b5563;
+            line-height: 1.8;
+        }
+
+        .intro-link {
+            font-size: 14px;
+            color: #4b5563;
+        }
+
+        .intro-link a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .intro-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Roles Table */
+        .table-section {
+            padding: 40px 0;
+        }
+
+        .table-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111827;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .roles-table {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .table-header {
+            background-color: #1e3a8a;
+            color: white;
+        }
+
+        .table-header tr {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .table-header th {
+            padding: 20px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 18px;
+            border-right: 1px solid #1e3a8a;
+        }
+
+        .table-header th:last-child {
+            border-right: none;
+        }
+
+        .table-body tr {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .table-body td {
+            padding: 20px;
+            border-right: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+
+        .table-body td:last-child {
+            border-right: none;
+        }
+
+        .role-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .role-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .role-name {
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .role-description {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .role-time {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .role-time strong {
+            color: #111827;
+        }
+
+        /* Benefits Section */
+        .benefits-section {
+            padding: 60px 0;
+            background-color: #f9fafb;
+            margin-top: 60px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #111827;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .benefit-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .benefit-card h3 {
+            font-size: 18px;
+            color: #111827;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .benefit-card p {
+            color: #4b5563;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 60px 0 0;
+        }
+
+        .cta-box {
+            background-color: #1e3a8a;
+            color: white;
+            border-radius: 12px;
+            padding: 48px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .cta-box h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-box p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 32px;
+            color: #e0e7ff;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 32px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white {
+            background-color: white;
+            color: #1e3a8a;
+        }
+
+        .btn-white:hover {
+            background-color: #f3f4f6;
+            transform: scale(1.05);
+        }
+
+        .btn-dark {
+            background-color: #1e40af;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-dark:hover {
+            background-color: #1e3a8a;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #fbbf24;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .table-header tr,
+            .table-body tr {
+                grid-template-columns: 1fr;
+            }
+
+            .table-header th,
+            .table-body td {
+                border-right: none;
+                border-bottom: 1px solid #e5e7eb;
+                padding: 16px;
+            }
+
+            .table-header th:last-child,
+            .table-body td:last-child {
+                border-bottom: none;
+            }
+
+            .cta-box {
+                padding: 32px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Club Roles & Responsibilities</h1>
+            <p class="subtitle">Learn about the leadership opportunities and meeting roles that make our club successful</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Introduction -->
+        <section class="intro-section">
+            <p class="intro-text">
+                Every role in Toastmasters provides valuable leadership experience and skill development. Whether serving on the executive committee or taking a meeting role, you'll build confidence, practice new skills, and contribute to the success of our club.
+            </p>
+            <p class="intro-link">
+                For official role guides, visit <a href="https://www.toastmasters.org/membership/club-meeting-roles" target="_blank">Toastmasters.org Meeting Roles</a>
+            </p>
+        </section>
+
+        <!-- Roles Table -->
+        <section class="table-section">
+            <h2 class="table-title">Club Roles Overview</h2>
+            <table class="roles-table">
+                <thead class="table-header">
+                    <tr>
+                        <th>Executive Committee</th>
+                        <th>Meeting Roles</th>
+                        <th>Support Roles</th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                    <tr>
+                        <!-- Executive Committee Column -->
+                        <td>
+                            <div class="role-item">
+                                <div class="role-name">President</div>
+                                <p class="role-description">Chief executive officer of the club, responsible for overall club success.</p>
+                                <p class="role-time"><strong>Time:</strong> 4-6 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Vice President Education (VPE)</div>
+                                <p class="role-description">Oversees all educational programs and member progress.</p>
+                                <p class="role-time"><strong>Time:</strong> 3-5 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Vice President Membership (VPM)</div>
+                                <p class="role-description">Responsible for attracting and retaining members.</p>
+                                <p class="role-time"><strong>Time:</strong> 3-4 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Vice President Public Relations (VPPR)</div>
+                                <p class="role-description">Manages the club's public image and promotes the club.</p>
+                                <p class="role-time"><strong>Time:</strong> 3-4 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Secretary</div>
+                                <p class="role-description">Maintains club records and manages correspondence.</p>
+                                <p class="role-time"><strong>Time:</strong> 2-3 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Treasurer</div>
+                                <p class="role-description">Manages club finances and collects dues.</p>
+                                <p class="role-time"><strong>Time:</strong> 2-3 hours/week</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Sergeant at Arms (SAA)</div>
+                                <p class="role-description">Ensures the meeting space is properly set up and manages club resources.</p>
+                                <p class="role-time"><strong>Time:</strong> 2-3 hours/week</p>
+                            </div>
+                        </td>
+
+                        <!-- Meeting Roles Column -->
+                        <td>
+                            <div class="role-item">
+                                <div class="role-name">Toastmaster of the Day</div>
+                                <p class="role-description">Hosts and facilitates the club meeting.</p>
+                                <p class="role-time"><strong>Time:</strong> 2-3 hours preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">General Evaluator</div>
+                                <p class="role-description">Oversees the evaluation portion of the meeting.</p>
+                                <p class="role-time"><strong>Time:</strong> 1-2 hours preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Speech Evaluator</div>
+                                <p class="role-description">Provides constructive feedback on prepared speeches.</p>
+                                <p class="role-time"><strong>Time:</strong> 30-60 min preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Table Topics Master</div>
+                                <p class="role-description">Conducts the impromptu speaking session.</p>
+                                <p class="role-time"><strong>Time:</strong> 30-60 min preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Timer</div>
+                                <p class="role-description">Tracks and signals time for all speakers.</p>
+                                <p class="role-time"><strong>Time:</strong> Minimal preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Grammarian</div>
+                                <p class="role-description">Tracks language use and introduces Word of the Day.</p>
+                                <p class="role-time"><strong>Time:</strong> 30-60 min preparation</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Ah-Counter</div>
+                                <p class="role-description">Tracks verbal pauses and filler words.</p>
+                                <p class="role-time"><strong>Time:</strong> Minimal preparation</p>
+                            </div>
+                        </td>
+
+                        <!-- Support Roles Column -->
+                        <td>
+                            <div class="role-item">
+                                <div class="role-name">Mentor</div>
+                                <p class="role-description">Guides new members through their first months in Toastmasters.</p>
+                                <p class="role-time"><strong>Time:</strong> 1-2 hours/month per mentee</p>
+                            </div>
+
+                            <div class="role-item">
+                                <div class="role-name">Webmaster</div>
+                                <p class="role-description">Maintains and updates the club website and online presence.</p>
+                                <p class="role-time"><strong>Time:</strong> 1-2 hours/week</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <h2 class="section-title">Why Take on a Role?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Build Leadership Skills</h3>
+                    <p>Every role develops specific leadership competencies that transfer to your professional and personal life.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Practice in Safety</h3>
+                    <p>Make mistakes and learn in a supportive environment where everyone is focused on growth.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Connect with Members</h3>
+                    <p>Taking roles helps you build relationships and become an integral part of the club community.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Accelerate Your Progress</h3>
+                    <p>Many roles count toward Pathways leadership projects and help you complete levels faster.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-box">
+                <h2>Ready to Take on a Role?</h2>
+                <p>Talk to our Vice President Education about volunteering for a role at your next meeting. Every journey of a thousand miles begins with a single step!</p>
+                <div class="cta-buttons">
+                    <a href="/join" class="cta-button btn-white">Join Our Club</a>
+                    <a href="/contact" class="cta-button btn-dark">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MLP Toastmasters. All rights reserved.</p>
+            <p><a href="https://www.toastmasters.org">Toastmasters International</a></p>
+        </div>
+    </footer>
+</body>
+</html>
